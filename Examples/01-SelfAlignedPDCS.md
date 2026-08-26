@@ -1,6 +1,11 @@
 # Example 1: Constructing the introduction as a scenario
 
-From *Self-aligned optical microcombs emerging between octave-separated lasers*.
+## Paper
+
+Grégory Moille *et al.*, [*Self-aligned optical microcomb emerging between
+octave separated lasers*](https://arxiv.org/abs/2602.05151), arXiv:2602.05151
+(2026). [PDF](https://arxiv.org/pdf/2602.05151) |
+[DOI](https://doi.org/10.48550/arXiv.2602.05151)
 
 This example applies two sections of the [main guide](../README.md): **A Paper
 Must Have a Purpose** and **The Introduction Is a Scenario**.
