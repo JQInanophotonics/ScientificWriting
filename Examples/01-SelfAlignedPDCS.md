@@ -10,6 +10,23 @@ octave separated lasers*](https://arxiv.org/abs/2602.05151), arXiv:2602.05151
 This example applies **The Introduction Is a Scenario** from the
 [main guide](../README.md).
 
+## TL;DR
+
+The introduction follows this sequence. Read the table from top to bottom.
+
+| Order | Scenario element | How it appears in the introduction |
+|---:|---|---|
+| 1 | **Setting** | Integrated frequency combs promise deployable precision metrology. |
+| 2 | **Protagonist** | On-chip comb self-referencing, specifically CEO detection and locking. |
+| 3 | **Objective** | Provide a field-deployable optical-to-microwave link. |
+| 4 | **Perturbation** | Outward-cascading DKS combs produce weak and noisy octave-spaced signals. |
+| 5 | **Stakes** | CEO locking remains confined to complex laboratory demonstrations. |
+| 6 | **Proposed resolution** | Generate a self-aligned PDCS between two strong, octave-separated pumps. |
+| 7 | **Challenge** | Prove self-alignment, CEO locking, and useful metrology operation. |
+| 8 | **Resolution** | A robust, self-referenced on-chip comb that performs the core tasks of frequency metrology. |
+
+The annotated sections below show the sentences used to construct each step.
+
 ## Annotated introduction
 
 ### Setting: what the field currently accepts
@@ -24,14 +41,19 @@ The paper establishes that this approach is useful before challenging it.
 
 ### Protagonist and objective: what is trying to succeed
 
-> [...] enabling ν−2ν nonlinear interferometry to measure and stabilize the
-> comb's carrier-envelope offset.
+> Optical frequency combs [...] with evenly spaced markers and a known
+> zero-frequency offset [...] provide a coherent optical to microwave two-way
+> link for ultra-high precision optical frequency measurement, synthesis, and
+> ultra-low noise microwave generation.
 
-The protagonist is on-chip comb self-referencing, specifically CEO detection
-and locking.
+> Reducing the size, weight, power, and cost of OFCs through mass-scale
+> fabrication can enable field deployment [...]
 
-Its objective is to become sufficiently robust and compact for deployable
-frequency metrology.
+The protagonist is on-chip comb self-referencing, specifically the ability to
+define, detect, and lock the CEO.
+
+Its objective is to provide the complete optical-to-microwave link of a
+self-referenced frequency comb in a compact, field-deployable system.
 
 ### Perturbation: what the paper contradicts
 
