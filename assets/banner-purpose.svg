@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 116" role="img" aria-labelledby="title">
   <title id="title">A PAPER MUST HAVE A PURPOSE</title>
   <rect width="1200" height="116" fill="#FFFFFF"/>
-  <text x="40" y="58" dominant-baseline="central" fill="#D5D5D5" font-family="ui-monospace,'Monaspace Neon','SF Mono',Menlo,Consolas,monospace" font-size="54" font-weight="600">00</text>
+  <text x="40" y="58" dominant-baseline="central" fill="#D5D5D5" font-family="ui-monospace,'Monaspace Neon','SF Mono',Menlo,Consolas,monospace" font-size="54" font-weight="600">01</text>
   <text x="132" y="58" dominant-baseline="central" fill="#1a1a1a" font-family="'Helvetica Neue Condensed','Helvetica Neue',Arial,sans-serif" font-size="37" font-weight="700" letter-spacing="2">A PAPER MUST HAVE A PURPOSE</text>
   <line x1="841.9" y1="58" x2="1156" y2="58" stroke="#E21833" stroke-width="2"/>
 </svg>

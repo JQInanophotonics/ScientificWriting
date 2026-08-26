@@ -2,11 +2,22 @@
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/header.svg"/><img src="assets/header.svg" width="97%" alt="Scientific Writing"/></picture>
 
+<a href="#pages"><picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/PAGES-0d1117?style=flat-square&logoColor=ffffff"/><img src="https://img.shields.io/badge/PAGES-ffffff?style=flat-square&logoColor=1a1a1a" alt="Pages"/></picture></a>
 <a href="https://github.com/JQInanophotonics/ScientificPresentations"><picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/PRESENTATIONS-0d1117?style=flat-square&logoColor=ffffff"/><img src="https://img.shields.io/badge/PRESENTATIONS-ffffff?style=flat-square&logoColor=1a1a1a" alt="Scientific Presentations"/></picture></a>
 <a href="https://github.com/JQInanophotonics/ScientificGraphicDesign"><picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/GRAPHIC%20DESIGN-0d1117?style=flat-square&logoColor=ffffff"/><img src="https://img.shields.io/badge/GRAPHIC%20DESIGN-ffffff?style=flat-square&logoColor=1a1a1a" alt="Scientific Graphic Design"/></picture></a>
 <a href="https://github.com/JQInanophotonics/ScientificDataManagement"><picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/DATA%20MANAGEMENT-0d1117?style=flat-square&logoColor=ffffff"/><img src="https://img.shields.io/badge/DATA%20MANAGEMENT-ffffff?style=flat-square&logoColor=1a1a1a" alt="Scientific Data Management"/></picture></a>
 
 </div>
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/banner-forewords.svg"/><img src="assets/banner-forewords.svg" width="97%" alt="Forewords"/></picture>
+
+This repository is the group's concise guide to writing a scientific paper.
+The README states the guidelines. The worked examples show how one guideline
+appears in a real paper through short excerpts and direct annotations.
+
+Read the guide first, then use the examples to see each rule applied. The
+current example is [The introduction is a
+scenario](Examples/01-IntroductionAsScenario.md).
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/banner-purpose.svg"/><img src="assets/banner-purpose.svg" width="97%" alt="A Paper Must Have a Purpose"/></picture>
 
@@ -122,6 +133,26 @@ Use passive voice when it preserves this order or when the actor does not matter
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/banner-consistency.svg"/><img src="assets/banner-consistency.svg" width="97%" alt="Be Consistent"/></picture>
 
 Use the same terminology, symbols, units, colors, fonts, and visual conventions throughout the paper. Do not replace a precise term with a synonym to avoid repetition. A color, line style, or symbol must retain the same meaning in every figure. The reader should evaluate the science, not decode its presentation.
+
+<a id="pages"></a>
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/banner-pages.svg"/><img src="assets/banner-pages.svg" width="97%" alt="Pages"/></picture>
+
+| Page | What it covers |
+|------|-----------------|
+| [Main guide](README.md) | Purpose, narrative, selection, figures, sentence-level writing, and consistency |
+| [Example 1: The introduction is a scenario](Examples/01-IntroductionAsScenario.md) | Annotated introduction from the self-aligned PDCS paper |
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/banner-repo-layout.svg"/><img src="assets/banner-repo-layout.svg" width="97%" alt="What's in This Repo"/></picture>
+
+```text
+ScientificWriting/
+├── README.md
+├── Examples/
+│   └── 01-IntroductionAsScenario.md
+└── assets/
+    └── dark/
+```
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/banner-see-also.svg"/><img src="assets/banner-see-also.svg" width="97%" alt="See Also"/></picture>
 
