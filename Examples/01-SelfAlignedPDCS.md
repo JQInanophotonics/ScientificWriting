@@ -1,4 +1,4 @@
-# Example 1: Constructing the introduction as a scenario
+# Example 1: The introduction is a scenario
 
 ## Paper
 
@@ -7,17 +7,8 @@ octave separated lasers*](https://arxiv.org/abs/2602.05151), arXiv:2602.05151
 (2026). [PDF](https://arxiv.org/pdf/2602.05151) |
 [DOI](https://doi.org/10.48550/arXiv.2602.05151)
 
-This example applies two sections of the [main guide](../README.md): **A Paper
-Must Have a Purpose** and **The Introduction Is a Scenario**.
-
-## What must become knowledge?
-
-**New information:** A new type of frequency comb, the self-aligned PDCS, has
-been demonstrated to solve the self-referencing limitations of standard DKS
-combs and to provide a new, useful tool for frequency metrology.
-
-The paper must give competent readers enough evidence to challenge and accept
-this statement. Only then does the information become knowledge.
+This example applies **The Introduction Is a Scenario** from the
+[main guide](../README.md).
 
 ## Annotated introduction
 
@@ -52,8 +43,8 @@ The paper contradicts the assumption that miniaturizing the conventional
 outward-cascading architecture is sufficient for practical on-chip
 self-referencing.
 
-The word "However" marks the transition from accepted knowledge to the problem
-with that knowledge.
+The word "However" marks the transition from the established situation to the
+problem.
 
 ### Stakes: why the contradiction matters
 
@@ -107,17 +98,8 @@ These questions define the evidence that the rest of the paper must provide.
 > The same self-aligned PDCS can perform the three core tasks of self-referenced
 > OFCs [...]
 
-The accepted view changes from:
-
-> Conventional on-chip combs require weak edge signals and complex supporting
-> apparatus for self-referencing.
-
-to:
-
-> A self-aligned PDCS can provide robust on-chip self-referencing and operate as
-> a versatile frequency-metrology tool.
-
-This is the knowledge the paper asks the field to accept.
+The protagonist reaches its objective: the self-aligned PDCS provides robust
+on-chip self-referencing and operates as a versatile frequency-metrology tool.
 
 ## The writing move
 
