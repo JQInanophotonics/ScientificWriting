@@ -95,10 +95,8 @@ Use:
 ```text
 ScientificWriting/
 ├── README.md
-├── Examples/
-│   └── 01-IntroductionAsScenario.md
-└── assets/
-    └── dark/
+└── Examples/
+    └── 01-IntroductionAsScenario.md
 ```
 
 - [ ] **Step 4: Add and renumber the banner assets**

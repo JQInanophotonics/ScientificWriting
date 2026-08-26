@@ -148,10 +148,8 @@ Use the same terminology, symbols, units, colors, fonts, and visual conventions 
 ```text
 ScientificWriting/
 ├── README.md
-├── Examples/
-│   └── 01-IntroductionAsScenario.md
-└── assets/
-    └── dark/
+└── Examples/
+    └── 01-IntroductionAsScenario.md
 ```
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/banner-see-also.svg"/><img src="assets/banner-see-also.svg" width="97%" alt="See Also"/></picture>

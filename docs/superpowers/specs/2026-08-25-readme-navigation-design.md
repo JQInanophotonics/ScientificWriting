@@ -27,9 +27,8 @@ duplicating the main writing guide.
 ```text
 ScientificWriting/
 ├── README.md
-├── Examples/
-│   └── 01-IntroductionAsScenario.md
-└── assets/
+└── Examples/
+    └── 01-IntroductionAsScenario.md
 ```
 
 ## README order
