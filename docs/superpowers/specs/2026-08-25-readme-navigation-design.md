@@ -1,5 +1,8 @@
 # ScientificWriting README navigation design
 
+> **Superseded 2026-11-15:** full topic rules live in standalone pages under
+> `Writing/`; the README summarizes each and links it.
+
 ## Goal
 
 Make the repository structure and worked examples visible without moving or
