@@ -147,6 +147,19 @@ Write every number, unit and symbol the same way. The full set of rules, with th
 - Text mode: sub- and superscripts on a word use `\textsubscript` and `\textsuperscript`: `TE\textsubscript{0}`, `k\textsuperscript{th}`.
 - Chemical formulas and isotopes use `\ce{}`: `\ce{Si3N4}`, `\ce{^{87}Rb}`.
 
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/banner-results.svg"/><img src="assets/banner-results.svg" width="97%" alt="The Results Section"/></picture>
+
+Show one result at a time, without repetition. The full rules, with examples from published papers and a worked bad/good example, are in [01 — The Results section](Writing/01-ResultsSection.md). In short:
+
+- One section per result, and its title states the result.
+- State what is expected before the measurement, and start every measurement with why it is done.
+- End every measurement with the number, compared to what was expected, and what it confirms.
+- Describe the device once. Details go to Methods or the Supplementary; in an abstract, keep them as short as possible.
+- One name per object and one symbol per quantity. Define every symbol, then write the symbol instead of the words.
+- Define an acronym only if you use it again, then write only the acronym.
+- ν for signal frequencies (optical or microwave), f only for the Fourier frequency.
+- Always `\cref`, and every claim cites its figure panel.
+
 <a id="pages"></a>
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/banner-pages.svg"/><img src="assets/banner-pages.svg" width="97%" alt="Pages"/></picture>
@@ -156,6 +169,7 @@ Write every number, unit and symbol the same way. The full set of rules, with th
 | [Main guide](README.md) | Purpose, narrative, selection, figures, sentence-level writing, and consistency |
 | [Example 1: The introduction is a scenario](Examples/01-IntroductionAsScenario.md) | Annotated introduction from the self-aligned PDCS paper |
 | [00 — Notation and units](Writing/00-NotationAndUnits.md) | The `siunitx` setup, `\qty` usage, approximation signs, sub- and superscripts, `\ce` formulas, and pre-submission checks |
+| [01 — The Results section](Writing/01-ResultsSection.md) | Structure of each result, device description, names and symbols, references, and a worked bad/good example |
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/banner-repo-layout.svg"/><img src="assets/banner-repo-layout.svg" width="97%" alt="What's in This Repo"/></picture>
 
@@ -163,7 +177,8 @@ Write every number, unit and symbol the same way. The full set of rules, with th
 ScientificWriting/
 ├── README.md
 ├── Writing/
-│   └── 00-NotationAndUnits.md
+│   ├── 00-NotationAndUnits.md
+│   └── 01-ResultsSection.md
 └── Examples/
     └── 01-IntroductionAsScenario.md
 ```
