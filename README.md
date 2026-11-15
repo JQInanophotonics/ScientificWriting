@@ -54,7 +54,7 @@ Data do not speak. Figures build meaning through selection, comparison and annot
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/banner-results.svg"/><img src="assets/banner-results.svg" width="97%" alt="The Results Section"/></picture>
 
-Show one result at a time, without repetition. Full page, with examples from published papers and a worked bad/good example: [05 — The Results section](Writing/05-Results.md).
+Show one result at a time, without repetition. Full page: [05 — The Results section](Writing/05-Results.md), with bad sentences next to their published version in [Example 2](Examples/02-ResultsSentences.md).
 
 - Each claim of the last introduction paragraph becomes one section, in the same order and with the same words. Each section opens with what the previous one established; the Discussion restates the claim as demonstrated.
 - One section per result. If the format has titles, the title states the result.
@@ -96,10 +96,11 @@ Write every number, unit and symbol the same way. Full page, with the `siunitx` 
 | [02 — Write only what matters](Writing/02-WriteOnlyWhatMatters.md) | What belongs in the main text, the Methods and the Supplementary |
 | [03 — The introduction is a scenario](Writing/03-Introduction.md) | The eight steps of an introduction |
 | [04 — Figures construct the argument](Writing/04-Figures.md) | What a figure does and how the figures progress |
-| [05 — The Results section](Writing/05-Results.md) | From the introduction to the Results, structure of each result, names and symbols, references, and a worked bad/good example |
+| [05 — The Results section](Writing/05-Results.md) | From the introduction to the Results, structure of each result, names and symbols, and references |
 | [06 — Style](Writing/06-Style.md) | Strunk and White, the active-voice exception, and consistency |
 | [07 — Notation and units](Writing/07-NotationAndUnits.md) | The `siunitx` setup, `\qty`, approximation signs, sub- and superscripts, `\ce`, and pre-submission checks |
 | [Example 1: The introduction is a scenario](Examples/01-IntroductionAsScenario.md) | Annotated introduction from the self-aligned PDCS paper |
+| [Example 2: Results sentences, bad and published](Examples/02-ResultsSentences.md) | Sentences written badly on purpose next to their published version in the self-aligned PDCS paper |
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/banner-repo-layout.svg"/><img src="assets/banner-repo-layout.svg" width="97%" alt="What's in This Repo"/></picture>
 
@@ -115,7 +116,8 @@ ScientificWriting/
 │   ├── 06-Style.md
 │   └── 07-NotationAndUnits.md
 └── Examples/
-    └── 01-IntroductionAsScenario.md
+    ├── 01-IntroductionAsScenario.md
+    └── 02-ResultsSentences.md
 ```
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/banner-see-also.svg"/><img src="assets/banner-see-also.svg" width="97%" alt="See Also"/></picture>

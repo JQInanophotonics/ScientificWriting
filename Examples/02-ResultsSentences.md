@@ -1,0 +1,37 @@
+# Example 2: Results sentences, bad and published
+
+## Paper
+
+Grégory Moille *et al.*, [*Self-aligned optical microcomb emerging between
+octave separated lasers*](https://arxiv.org/abs/2602.05151), arXiv:2602.05151
+(2026). [PDF](https://arxiv.org/pdf/2602.05151) |
+[DOI](https://doi.org/10.48550/arXiv.2602.05151)
+
+This example applies [05 — The Results section](../Writing/05-Results.md) from the
+[main guide](../README.md).
+
+## Bad and published sentences
+
+Each left cell is written badly on purpose, with a fault that is common in drafts. Each right cell is the sentence as published.
+
+| Bad | Good (published) |
+|---|---|
+| The pump frequencies $\nu_-\sim 193$ THz and $\nu_+\sim 387$ THz are almost separated by an octave, which is where the dispersion is good. | `The dispersion conditions are satisfied at \qty{\nu_- \approx 193}{\THz} ($n_-=263$, C-band) and \qty{\nu_+ \approx 387}{\THz} ($n_+=2n_-=526$, visible) (\cref{fig:2}a).` |
+| The fabrication of the microrings was done by a commercial foundry and consists of several deposition, lithography, etching and cladding steps, and the bus waveguide was designed by changing its width and gap so that it couples light over more than an octave. | `We demonstrate the above concept experimentally using silicon nitride (\ce{Si_3N_4}) microring resonators obtained via commercial four-inch wafer foundry fabrication, with a bus waveguide designed to couple across more than an octave (\cref{fig:1}b; see Methods).` |
+| The output of the chip is then sent to an OSA and to a photodiode to look at the beat between the PDCS and the pump comb. | `We demonstrate self-alignment by directly measuring $\Delta\nu_\mathrm{ceo}$ between the PDCS and $\nu_+$ pump comb (see Methods and Supplementary Information S.5).` |
+| When the pumps are appropriately set, the PDCS can enter in the self-aligned regime, where it becomes aligned to the pumps, allowing for metrology applications. | `In a self-aligned PDCS, both pumps are comb teeth that pin $\nu_\mathrm{rep}^\mathrm{pdcs}=(\nu_+-\nu_-)/(n_+-n_-)$.` |
+| Optical frequency division is demonstrated on figure \ref{fig:2}(d), where the slope is $1/N$. | `The repetition rate therefore depends linearly on the pump detunings $\delta\nu_\pm$, with opposite signs for positive- and negative-pump actuation and slope magnitude $1/N=1/(n_+-n_-)=1/n_-$ corresponding to the optical frequency division (OFD) factor (\cref{fig:2}d).` |
+| The rep rate linewidth is much narrower once the soliton is self-aligned, as can be seen on figure \ref{fig:2}(e). | `Due to self-alignment, the repetition rate noise depends only on the pump frequency noises, reducing its \qty{3}{\dB} linewidth from \qty{70}{\kHz} for the free-running case with three comb components to \qty{1.8}{\kHz} (\cref{fig:2}e).` |
+| The division is confirmed experimentally at low frequency. At higher frequencies, this is not true anymore. | `[…] the lasers' long-term frequency drift prevents extended averaging. As a result, the noise floor exceeds the OFD of the laser noise above \qty{10}{\kHz}, which future work will improve.` |
+| Both Allan deviations (PDCS/fiber comb) being identical, this shows that the PDCS works as a clockwork. | `To confirm that the self-aligned PDCS acts as a true clockwork, we perform a second experiment a day later in which we locked a fiber comb's CEO and one comb tooth to the clock laser, achieving identical Allan deviation performance except at \qty{\tau<1}{\s}, where the PDCS repetition rate noise is dominated by the EOcomb downconverter.` |
+| rep rate / repetition rate / FSR / comb spacing; PDCS / soliton / comb | `$\nu_\mathrm{rep}^\mathrm{pdcs}$` once defined, and "PDCS" everywhere. |
+
+## What changed
+
+- **Notation:** `\sim` and typed units become `\qty` with `\approx`, and every symbol is defined ($n_\pm$, $\Delta\nu_\mathrm{ceo}$, $N$).
+- **Why before how:** "sent to an OSA and to a photodiode" becomes "We demonstrate self-alignment by directly measuring $\Delta\nu_\mathrm{ceo}$".
+- **Device once:** fabrication steps go to Methods; the sentence keeps only what the result needs.
+- **Number and comparison:** "much narrower" becomes "from \qty{70}{\kHz} […] to \qty{1.8}{\kHz}".
+- **Limits with where and why:** "not true anymore" becomes "above \qty{10}{\kHz}" because of "the lasers' long-term frequency drift".
+- **References:** "figure \ref{fig:2}(d)" becomes "(\cref{fig:2}d)".
+- **One name per object:** rep rate, FSR and comb spacing become $\nu_\mathrm{rep}^\mathrm{pdcs}$.

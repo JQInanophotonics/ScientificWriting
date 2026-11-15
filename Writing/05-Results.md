@@ -63,7 +63,7 @@ The introduction and the Discussion in the same words (rule 4 above):
 8. **Give each object one name and use it everywhere.** Never alternate "repetition rate", "rep rate" and "FSR". Define an acronym only if you use it again, and once it is defined, write only the acronym.
 9. **Give each quantity one symbol and use it everywhere.**
 10. **Define every symbol where it first appears.**
-11. **Once a symbol is defined, write the symbol instead of the words.** Write "Since $\nu_\mathrm{rep} \approx 735$ GHz is too high to be detected", not "The 735 GHz repetition rate is too high".
+11. **Once a symbol is defined, write the symbol instead of the words.** Write "we lock $\nu_\mathrm{rep}^\mathrm{pdcs}$ to the same \qty{10}{\MHz} reference", not "we lock the repetition rate of the PDCS to the same 10 MHz reference".
 12. **Use ν for signal frequencies, optical or microwave, and f only for the Fourier frequency.**
 13. **Introduce every equation with why it is needed, and follow it with what it means.**
 
@@ -96,25 +96,9 @@ Defined symbols instead of words, and the panel at the end of the sentence (rule
 >
 > — Self-aligned PDCS, Nature 2026
 
-## Worked example: fixing a conference abstract
+## Worked example
 
-The left column is a draft abstract on optical frequency division with a self-aligned PDCS and an electro-optic down-converter. The right column is how it should be written.
-
-| Bad (current) | Good (fixed) |
-|---|---|
-| …features a FSR of about $f_{\mathrm{rep}}=735$ GHz. | `…generating a PDCS with \qty{\nu_\mathrm{rep} \approx 735}{\GHz}.` |
-| The pump frequencies $\nu_-\sim 192$ THz and $\nu_+\sim 385$ THz are almost separated by an octave… | `Two pumps at \qty{\nu_- \approx 192}{\THz} and \qty{\nu_+ \approx 385}{\THz}, at modes $N_+ = 2N_-$, generate a PDCS centered at \qty{\nu_0 \approx 289}{\THz}.` |
-| When the pumps are appropriately set on resonance, the PDCS can enter in the self-aligned regime, … allowing for metrology applications. | `Once self-aligned, the PDCS becomes a self-aligned parametrically driven cavity soliton (SParCS): the SParCS and both pumps share a single frequency grid, and $\nu_\mathrm{rep} = (\nu_+ - \nu_-)/N_-$ (\cref{fig:1}a).` |
-| The self-aligned PDCS (SParCS) signal is then sent to a EO modulator to measure the soliton repetition rate. | `Since \qty{\nu_\mathrm{rep} \approx 735}{\GHz} is too high to be detected, we measure it by down-converting the SParCS with a TFLT phase modulator driven at \qty{\nu_\mathrm{eo} \approx 17.5}{\GHz}, such that $\nu_\mathrm{rep} = N_\mathrm{eo} \nu_\mathrm{eo} \pm \nu_\mathrm{beat}$ with $N_\mathrm{eo} = 42$ (\cref{fig:1}a).` |
-| The EO modulator was designed in the TFLT platform (film thickness = 500 nm). This modulator consists of a dual-pass… | `…a dual-pass TFLT phase modulator~\cite{…}.` The rest goes to Methods or the Supplementary if the format has them. |
-| Optical frequency division is demonstrated on figure \ref{fig:fig}(b). … where $N=N_-$ is OFD factor of the PDCS. ($S_\mathrm{b}$ and $f$ never defined) | `…where $f$ is the Fourier frequency, $N_-$ the SParCS division factor, and $S_\mathrm{b}$ [?].` |
-| Rewriting equation (\ref{eq:PN}) for the beat note phase noise, we find a division a factor $1/N^2=1/261^2$… | `With free-running pumps, \cref{eq:PN} predicts that $\nu_\mathrm{rep}$ carries the pump noise divided by $N_-^2 = 261^2$.` |
-| This trend is confirmed experimentally at low frequency… At higher frequencies, this is not true anymore… | `$S_\mathrm{beat}$ follows this prediction for \qty{f < [?]}{\kHz} (\cref{fig:1}b), above which the synthesizer noise dominates.` |
-| Both phase noise (ppln/tflt) being identical, this shows that the TFLT doesn't introduce any additional noise… | `To verify that the TFLT chip adds no noise, we measure the same SParCS with a bulk PPLN modulator. Both $S_\mathrm{beat}$ overlap (\cref{fig:1}b).` |
-| …the OFD factor on the frequencyRF frequency becomes $N\times N_{\mathrm{eo}}=10 962$, which is confirmed experimentally… | `With $\nu_\mathrm{beat}$ locked to a \qty{10}{\MHz} reference, [?] carries the pump noise divided by $(N_- N_\mathrm{eo})^2 = (261 \times 42)^2$ up to the \qty{[?]}{\kHz} servo bandwidth (\cref{fig:1}c).` |
-| rep rate / repetition rate / FSR; beat / beat tone / beat note; PDCS / self-aligned PDCS / SParCS | `$\nu_\mathrm{rep}$` and `$\nu_\mathrm{beat}$` everywhere. "SParCS" everywhere after it is defined. |
-
-`[?]` marks a value or definition the draft never gives. Find it before writing the sentence.
+[Example 2: Results sentences, bad and published](../Examples/02-ResultsSentences.md) shows sentences written badly on purpose next to their published version.
 
 ## Before submission
 
