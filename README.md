@@ -46,7 +46,7 @@ The introduction tells a story in the order the reader needs it. Full page: [03 
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/banner-figures.svg"/><img src="assets/banner-figures.svg" width="97%" alt="Figures Construct the Argument"/></picture>
 
-Data do not speak. Figures build meaning through selection, comparison and annotation. Full page: [04 — Figures construct the argument](Writing/04-Figures.md).
+Data do not speak. Figures build meaning through selection, comparison and annotation. Full page: [04 — Figures construct the argument](Writing/04-Figures.md). Worked example: [Example 4](Examples/04-Figures.md).
 
 - Each figure answers one necessary question. Order the figures by the questions a skeptical reader asks, not by when the experiments were done.
 - Figure 1 is the concept, often the conventional approach next to the new one.
@@ -82,7 +82,7 @@ The conclusion mirrors the introduction: it answers the problem the introduction
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/banner-style.svg"/><img src="assets/banner-style.svg" width="97%" alt="Style"/></picture>
 
-Readers cannot challenge an argument they cannot follow. Full page: [07 — Style](Writing/07-Style.md).
+Readers cannot challenge an argument they cannot follow. Full page: [07 — Style](Writing/07-Style.md). Worked example: [Example 5](Examples/05-Style.md).
 
 - Follow Strunk and White: omit needless words, use concrete language, keep related words together, put the important words at the end.
 - Begin with the setup or condition, end with the result. Make the physics the subject, not "we".
@@ -119,7 +119,9 @@ Write every number, unit and symbol the same way. Full page, with the `siunitx` 
 | [08 — Notation and units](Writing/08-NotationAndUnits.md) | The `siunitx` setup, `\qty`, approximation signs, sub- and superscripts, `\ce`, and pre-submission checks |
 | [Example 1: The introduction is a scenario](Examples/01-IntroductionAsScenario.md) | Annotated introduction from the self-aligned PDCS paper |
 | [Example 2: Results sentences, bad and published](Examples/02-ResultsSentences.md) | Sentences written badly on purpose next to their published version in the self-aligned PDCS paper |
-| [Example 3: The conclusion mirrors the introduction](Examples/03-ConclusionMirrorsIntroduction.md) | Introduction and Discussion side by side in two published papers |
+| [Example 3: The conclusion mirrors the introduction](Examples/03-ConclusionMirrorsIntroduction.md) | Introduction and conclusion side by side in published papers |
+| [Example 4: Figures in published papers](Examples/04-Figures.md) | Each figure rule in the group's published figures and captions |
+| [Example 5: Style, bad and published](Examples/05-Style.md) | Sentences written badly on purpose next to their published version, one per style rule |
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/banner-repo-layout.svg"/><img src="assets/banner-repo-layout.svg" width="97%" alt="What's in This Repo"/></picture>
 
@@ -138,7 +140,9 @@ ScientificWriting/
 └── Examples/
     ├── 01-IntroductionAsScenario.md
     ├── 02-ResultsSentences.md
-    └── 03-ConclusionMirrorsIntroduction.md
+    ├── 03-ConclusionMirrorsIntroduction.md
+    ├── 04-Figures.md
+    └── 05-Style.md
 ```
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/banner-see-also.svg"/><img src="assets/banner-see-also.svg" width="97%" alt="See Also"/></picture>

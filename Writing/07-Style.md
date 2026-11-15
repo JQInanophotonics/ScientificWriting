@@ -37,30 +37,23 @@ Use passive voice when it preserves this order or when the actor does not matter
 ## Rules from the group's papers
 
 1. **Begin the sentence with the setup or condition, end with the result.**
-2. **Make the logic explicit.** Link a sentence to the previous one with *because*, *since*, *therefore* or *thus*, so the reader sees why it follows.
-3. **State what is new against what is known.** Use *unlike*, *although* or *in contrast* to place the result next to the conventional approach.
-4. **Replace qualitative words with numbers.** Never "much narrower", "large", "good agreement" alone: give the values.
-5. **Make the physics the subject.** In the group's published papers, only 6 to 17 % of sentences start with "We".
+   The reader reads from left to right and remembers the end of the sentence. Put the conditions (powers, frequencies, the configuration) first, then what is obtained under them. A sentence that starts with the result and trails off into conditions buries the result in the middle of the paragraph.
 
-### In published papers
+2. **Make the logic explicit.**
+   Each sentence must follow from the previous one, and the reader must see why. Link them with *because*, *since*, *therefore*, *thus*, *as a result*. Two sentences placed side by side without a link leave the reader to guess whether the second is a consequence, a contrast or a new topic. If no link word fits, the sentence is probably in the wrong place.
 
-The condition first, the result last (rule 1):
+3. **State what is new against what is known.**
+   A result means something only next to what the field already does. Use *unlike*, *although*, *in contrast*, *whereas* to place the new mechanism next to the conventional one, and say precisely where they differ. Saying that a result is "novel" or "unique" does not do this; the comparison does.
 
-> Using on-chip pump powers of \qty{P_-=145}{\mW} and \qty{P_+=70}{\mW} for the pumps at $\nu_-$ and $\nu_+$, respectively, we deterministically generate an octave-spanning PDCS (\cref{fig:2}b; see Methods).
+4. **Replace qualitative words with numbers.**
+   "Much narrower", "large", "good agreement", "significantly improved" carry no information a reviewer can check. Give the value and what it is compared to: the linewidth before and after, the improvement as a factor, the agreement as a deviation. If a number is not available, the claim is not ready to be written.
 
-Each sentence follows from the previous one (rule 2):
+5. **Make the physics the subject.**
+   The subject of the sentence is what the reader should look at: the soliton, the noise, the device, not the authors. "We" is fine when the authors made a choice or performed an action, but not as the default opening. In the group's published papers, only 6 to 17 % of sentences start with "We".
 
-> Because both pumps become part of the PDCS comb, they satisfy $\nu_+ = 2n_-\nu_\mathrm{rep}^\mathrm{pdcs} + \nu_\mathrm{ceo}^\mathrm{pdcs}$ and $\nu_- = n_-\nu_\mathrm{rep}^\mathrm{pdcs} + \nu_\mathrm{ceo}^\mathrm{pdcs}$. The CEO can therefore be readily measured and stabilized before the chip from the strong beat between one of the pumps at $\nu_+$ and the other doubled pump at $2\nu_-$.
+## Worked example
 
-The new against the known (rule 3):
-
-> Although this self-alignment is conceptually related to Kerr-induced synchronization (KIS), where a single DKS comb tooth is captured by a weak externally injected reference laser, the two phenomena differ fundamentally. In KIS, the reference weakly perturbs a DKS and plays no role in the soliton's energy balance. In contrast, in the self-alignment regime described here, the two pump fields simultaneously synchronize and generate the PDCS through a fully non-perturbative interaction […]
-
-Numbers, not adjectives (rule 4):
-
-> Due to self-alignment, the repetition rate noise depends only on the pump frequency noises, reducing its \qty{3}{\dB} linewidth from \qty{70}{\kHz} for the free-running case with three comb components to \qty{1.8}{\kHz} (\cref{fig:2}e).
-
-All four quotes: *Self-aligned optical microcomb emerging between octave separated lasers*, Nature 2026.
+[Example 5: Style, bad and published](../Examples/05-Style.md) shows each rule with a sentence written badly on purpose next to the published one.
 
 ## Be consistent
 

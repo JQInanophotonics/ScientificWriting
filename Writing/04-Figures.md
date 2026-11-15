@@ -24,65 +24,46 @@ The introduction proposes a resolution. The figures test it. The discussion stat
 
 ### The set of figures
 
-1. **Figure 1 is the concept.** It is a schematic of the mechanism, and it often draws the conventional approach next to the new one, so the reader sees the perturbation of the introduction.
-2. **One figure per Results section, with the same words.** The figure title and the section title, or its first sentence, name the same result.
-3. **The experimental setup is panel a of the figure that uses it, and it is simplified.** Only the parts the result needs are drawn; the full setup goes to Methods or the Supplementary.
-4. **A color, marker or line style keeps the same meaning in every figure.** Measured data are markers, simulations and theory are lines.
+1. **Figure 1 is the concept.**
+   It is a schematic of the mechanism, not data. It shows the reader, before any measurement, what the paper does and why it is different.
+   - Draw the conventional approach next to the new one: panel a the established scheme with its limitation, panel b the new scheme. The reader then sees the perturbation of the introduction in one glance.
+   - Keep it free of experimental detail. The concept must be readable by someone outside the subfield.
+   - The introduction cites Fig. 1 when it states the problem and the proposed resolution.
+
+2. **One figure per Results section, with the same words.**
+   The figure is the evidence for one result, so it carries the same claim as its section.
+   - The figure title and the section title, or the first sentence of the section when there are no titles, name the same result with the same words.
+   - If a section needs two figures, both titles name the same result and say which side of it each shows.
+   - A figure whose message cannot be matched to a section is either a Supplementary figure or a missing section.
+
+3. **The experimental setup is panel a of the figure that uses it, and it is simplified.**
+   The reader needs to know what is measured and how the signal is obtained, not the full bench.
+   - Draw only the parts the result needs: the lasers, the device, the detection. Leave out amplifiers, polarization controllers and attenuators unless the result depends on them.
+   - The full setup, with part numbers, goes to Methods or the Supplementary.
+   - Put the setup next to the data it produces, not in a separate setup figure.
+
+4. **A color, marker or line style keeps the same meaning in every figure.**
+   The reader learns the code once, in the first figure, and reuses it.
+   - Assign a color to each physical object or condition (for example, with and without synchronization) and keep it in every figure.
+   - Measured data are markers; simulations and theory are lines. A reader then tells measurement from model without reading the caption.
+   - Never reuse a color for a different meaning in a later figure.
 
 ### The caption
 
 5. **The bold title states the message of the figure,** not the type of plot.
+   Write the result the figure demonstrates, as a statement: what is shown to work, scale or differ. Not "Optical spectra" or "Noise measurements". A reader who reads only the titles of the figures should get the argument of the paper.
+
 6. **Each panel starts with its bold letter, then what is plotted.**
-7. **The caption defines every color, marker and line style,** in parentheses next to what they show.
-8. **The caption gives the conditions needed to read the panel:** pump frequencies, mode numbers, simulation parameters.
-9. **A panel ends with what it shows or confirms** when that is not obvious from the plot.
+   Start with the quantity on the plot, then against what: "**b** Repetition rate against the pump detuning". The reader looks at the panel while reading the caption and must find the axes first.
+
+7. **The caption defines every color, marker and line style,** in parentheses right after what they show: "(circles: measured, solid line: simulation)". No separate legend paragraph at the end of the caption, and no symbol left for the reader to guess.
+
+8. **The caption gives the conditions needed to read the panel:** pump frequencies and powers, mode numbers, simulation parameters. The figure must be understandable without the text. Give only the conditions that change the reading of the panel; the rest belongs in Methods.
+
+9. **A panel ends with what it shows or confirms** when that is not obvious from the plot. One short clause: "confirming the self-alignment" or "in agreement with the simulation".
 
 How a figure looks (fonts, line widths, colors, export) is covered in [ScientificGraphicDesign](https://github.com/JQInanophotonics/ScientificGraphicDesign).
 
-## In published papers
+## Worked example
 
-**Figure 1 as the concept, with the conventional approach next to the new one (rule 1).**
-
-| Paper | Figure 1 |
-|---|---|
-| All-optical noise quenching, Optica 2025 | "DKS thermo-refractive noise and its circumvention through Kerr-induced synchronization (KIS)": **(a)** single pump scenario, then KIS |
-| Dynamic tuning of soliton microcomb repetition rate, Optics Continuum 2025 | "Kerr-induced synchronization for dynamic comb repetition rate tuning": **a** typical approach for repetition rate tuning, **b** dynamic-KIS |
-| DKS self-balancing, PRA 2026 | "Soliton self-balancing mechanism through spectral energy redistribution under Kerr-induced synchronization": **a** single-pump DKS, **b** KIS regime |
-
-**One figure per Results section, with the same words (rule 2).** DKS self-balancing, PRA 2026:
-
-| Results section | Figure title |
-|---|---|
-| Self-balancing in purely quadratic dispersion resonators | Self-balancing in a pure quadratic integrated dispersion microresonator. |
-| Self-balancing effect in presence of a dispersive wave | Demonstration of self-balancing effect in the presence of a single DW. |
-| Dispersive wave enhancement with quartic dispersion | Numerical demonstration of DW power enhancement due to self-balancing. |
-
-In the self-aligned PDCS paper (Nature 2026), the section "Self-aligned PDCS metrology: microwave to optical link and vice versa" has two figures, "Microwave-to-optical link: …" and "Optical-to-microwave link: …".
-
-**The setup as panel a (rule 3).**
-
-> **a** Simplified experimental setup for optical frequency synthesis using a self-aligned PDCS microcomb.
->
-> — Self-aligned PDCS, Nature 2026, Fig. 4
-
-**A bold title that states the message (rule 5).**
-
-> **Wafer-scale self-aligned PDCS yield and active thermal tuning**
->
-> — Self-aligned PDCS, Nature 2026, Fig. 3
-
-Not "Optical spectra of ten devices".
-
-**Markers, lines and colors defined in the caption, and kept across figures (rules 4 and 7).**
-
-> OPO frequency mismatch $\Delta\nu$ (circles: measured, solid line: simulation) […] PDCS integrated dispersion $D_{\mathrm{int}}(n-n_0)$ (squares: measured, dashed line: simulation)
->
-> — Self-aligned PDCS, Nature 2026, Fig. 2a
-
-In DKS self-balancing (PRA 2026), blue is "with KIS" and purple is "without KIS" in Figs. 2, 3 and 4.
-
-**The panel ends with what it confirms (rule 9).**
-
-> For 10 devices sampled across the wafer with purposely different coupler designs, […] the corresponding self-aligned PDCS optical spectrum is shown alongside the repetition rate variation against $\delta\nu_-$ (inset), confirming self-alignment and robustness against coupling variations, thickness variations, and wafer-scale fabrication imperfections […]
->
-> — Self-aligned PDCS, Nature 2026, Fig. 3a
+[Example 4: Figures in published papers](../Examples/04-Figures.md) shows each rule in the group's published figures and captions.
