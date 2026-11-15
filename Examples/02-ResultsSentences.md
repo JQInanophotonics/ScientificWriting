@@ -38,7 +38,7 @@ LaTeX of the good sentence: `\qty{\nu_- \approx 193}{\THz} ($n_-=263$, C-band)`.
 
 | Bad | Good (published) |
 |---|---|
-| When the pumps are appropriately set, the PDCS can enter in the self-aligned regime, where it becomes aligned to the pumps, allowing for metrology applications. | In a self-aligned PDCS, both pumps are comb teeth that pin ν_rep = (ν₊ − ν₋)/(n₊ − n₋). |
+| When the pumps are appropriately set, the PDCS can enter in the self-aligned regime, where it becomes aligned to the pumps, allowing for metrology applications. | In a self-aligned PDCS, both pumps are comb teeth that pin ν_rep^pdcs = (ν₊ − ν₋)/(n₊ − n₋). |
 
 ### Always `\cref`, and define every symbol ([Rules 14 and 10](../Writing/05-Results.md#rules))
 
@@ -70,4 +70,4 @@ LaTeX: `(\cref{fig:2}d)`, never `figure \ref{fig:2}(d)`.
 
 | Bad | Good (published) |
 |---|---|
-| rep rate, repetition rate, FSR, comb spacing; PDCS, soliton, comb | ν_rep once defined; "PDCS" everywhere. |
+| rep rate, repetition rate, FSR, comb spacing; PDCS, soliton, comb | ν_rep^pdcs once defined; "PDCS" everywhere. |
