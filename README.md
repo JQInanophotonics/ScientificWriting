@@ -134,7 +134,17 @@ Use passive voice when it preserves this order or when the actor does not matter
 
 Use the same terminology, symbols, units, colors, fonts, and visual conventions throughout the paper. Do not replace a precise term with a synonym to avoid repetition. A color, line style, or symbol must retain the same meaning in every figure. The reader should evaluate the science, not decode its presentation.
 
-For numbers, units and symbols in LaTeX, follow [Notation and units](NotationAndUnits.md).
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/banner-notation.svg"/><img src="assets/banner-notation.svg" width="97%" alt="Notation and Units"/></picture>
+
+Write every number, unit and symbol the same way. The full set of rules, with the `siunitx` setup and checks to run before submission, is in [00 — Notation and units](Writing/00-NotationAndUnits.md). In short:
+
+- Every value with a unit goes through `\qty{}{}`, with unit macros (`\nm`, `\THz`, `\mW`), never typed by hand.
+- The symbol and the relation go inside `\qty`: `\qty{\nu_0 \approx 283}{\THz}`.
+- Approximately equal is `\simeq` or `\approx`, never `\sim`.
+- No e-notation: `\num{3e3}` prints "3e3". Write `$3\times10^{3}$`.
+- Frequency first, wavelength in parentheses: `\qty{\approx 283}{\THz} (\qty{1060}{\nm})`.
+- Descriptive subscripts are upright (`\nu_\mathrm{rep}`). Sub- and superscripts on words use `\textsubscript` and `\textsuperscript` (`TE\textsubscript{0}`).
+- Chemical formulas and isotopes use `\ce{}`: `\ce{Si3N4}`, `\ce{^{87}Rb}`.
 
 <a id="pages"></a>
 
@@ -144,14 +154,15 @@ For numbers, units and symbols in LaTeX, follow [Notation and units](NotationAnd
 |------|-----------------|
 | [Main guide](README.md) | Purpose, narrative, selection, figures, sentence-level writing, and consistency |
 | [Example 1: The introduction is a scenario](Examples/01-IntroductionAsScenario.md) | Annotated introduction from the self-aligned PDCS paper |
-| [Notation and units](NotationAndUnits.md) | The `siunitx` setup, `\qty` usage, approximation signs, sub- and superscripts, `\ce` formulas, and pre-submission checks |
+| [00 — Notation and units](Writing/00-NotationAndUnits.md) | The `siunitx` setup, `\qty` usage, approximation signs, sub- and superscripts, `\ce` formulas, and pre-submission checks |
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/banner-repo-layout.svg"/><img src="assets/banner-repo-layout.svg" width="97%" alt="What's in This Repo"/></picture>
 
 ```text
 ScientificWriting/
 ├── README.md
-├── NotationAndUnits.md
+├── Writing/
+│   └── 00-NotationAndUnits.md
 └── Examples/
     └── 01-IntroductionAsScenario.md
 ```
