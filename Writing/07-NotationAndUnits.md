@@ -49,25 +49,29 @@ A journal template without the class needs the same block in its preamble. Decla
 
 3. **Use unit macros, never text.** Write `\qty{800}{\nm}`, not `\qty{800}{nm}`. Pick one form per paper: `\mW` everywhere, not `\mW` in one place and `\milli\watt` in another. Write percentages as `\qty{5}{\percent}`, not `5\%`.
 
-4. **Approximately equal is `\simeq` or `\approx`, never `\sim`.** `\sim` means "of the order of" or "scales as". Use one of the first two throughout a paper.
+4. **Use SI units only.** Never inches, mils or feet. Write `\qty{100}{\mm} wafer`, not "four-inch wafer".
 
-5. **Never use e-notation.** With `parse-numbers=false`, `\num{3e3}` prints "3e3" in the PDF. Write `$3\times10^{3}$` or `\num{3\times10^{3}}`.
+5. **dBm is not an SI unit.** In the text, give the power in watts, with dBm in parentheses only if it helps: `above \qty{1}{\nW} (i.e., \qty{-60}{\dBm})`. In a figure, label the axis in dB and state the reference in the caption: "Power normalized to \qty{1}{\mW} (\qty{}{\dBm})."
 
-6. **Frequency first, wavelength in parentheses.**
+6. **Approximately equal is `\simeq` or `\approx`, never `\sim`.** `\sim` means "of the order of" or "scales as". Use one of the first two throughout a paper.
+
+7. **Never use e-notation.** With `parse-numbers=false`, `\num{3e3}` prints "3e3" in the PDF. Write `$3\times10^{3}$` or `\num{3\times10^{3}}`.
+
+8. **Frequency first, wavelength in parentheses.**
 
    ```latex
    pumped at \qty{\approx 283}{\THz} (\qty{1060}{\nm})
    ```
 
-7. **Round value in the text, exact value in parentheses on first use.**
+9. **Round value in the text, exact value in parentheses on first use.**
 
    ```latex
    a microcomb of $\nu_\mathrm{rep}$ \qty{\approx 109}{\GHz} (\qty{109.516441235}{\GHz})
    ```
 
-8. **Keep the same precision for the same quantity.** Do not write `\qty{316.20}{\mW}` in one place and `\qty{316.2}{\mW}` in another.
+10. **Keep the same precision for the same quantity.** Do not write `\qty{316.20}{\mW}` in one place and `\qty{316.2}{\mW}` in another.
 
-9. **Math mode: sub- and superscripts on a symbol use `_` and `^`.** A descriptive label is upright with `\mathrm`, a variable index is italic.
+11. **Math mode: sub- and superscripts on a symbol use `_` and `^`.** A descriptive label is upright with `\mathrm`, a variable index is italic.
 
    ```latex
    $\nu_\mathrm{rep}$, $\nu_\mathrm{ceo}$, $Q_\mathrm{c}$    % labels: upright
@@ -76,7 +80,7 @@ A journal template without the class needs the same block in its preamble. Decla
 
    Use `\mathrm`, not `\textrm` or `\text`. Write a given subscript the same way everywhere: not `Q_\mathrm{c}` in one sentence and `Q_c` in the next, nor `\nu_{ceo}` beside `\nu_\mathrm{ceo}`.
 
-10. **Text mode: sub- and superscripts on a word use `\textsubscript` and `\textsuperscript`.** This covers ordinals, mode labels and state names.
+12. **Text mode: sub- and superscripts on a word use `\textsubscript` and `\textsuperscript`.** This covers ordinals, mode labels and state names.
 
     ```latex
     the $m$\textsuperscript{th} sideband
@@ -87,14 +91,14 @@ A journal template without the class needs the same block in its preamble. Decla
 
     Never write `TE$_0$` or `5S$_{1/2}$`: math mode switches the font and the spacing in the middle of a word.
 
-11. **Use `\times` for products and `\nicefrac` for inline ratios.**
+13. **Use `\times` for products and `\nicefrac` for inline ratios.**
 
     ```latex
     an OFD factor of 801 ($89 \times 9$)
     $\nicefrac{K}{M}$
     ```
 
-12. **Chemical formulas and isotopes use `\ce{}` from `mhchem`.** Load `\usepackage[version=4]{mhchem}`. Digits become subscripts automatically, so write `\ce{Si3N4}`, not `\ce{Si_3N_4}` or `Si$_3$N$_4$`.
+14. **Chemical formulas and isotopes use `\ce{}` from `mhchem`.** Load `\usepackage[version=4]{mhchem}`. Digits become subscripts automatically, so write `\ce{Si3N4}`, not `\ce{Si_3N_4}` or `Si$_3$N$_4$`.
 
     ```latex
     \ce{Si3N4}, \ce{SiO2}, \ce{SiN}, \ce{LiNbO3}
@@ -112,6 +116,8 @@ grep -nE '\\sim[^e]|\\num\{[0-9.]+e' paper.tex            # \sim, e-notation
 grep -nE '_\{[a-z]{2,}\}' paper.tex                        # italic descriptive subscript
 grep -nE '[A-Za-z]\$[_^]' paper.tex                         # math sub/superscript glued to a word
 grep -nE 'Si\$?_\{?3|SiO\$?_\{?2|(^|[^{])(Si3N4|SiO2)' paper.tex # formula outside \ce, or with _
+grep -nE 'inch|[0-9]~?in\b|mil\b' paper.tex                  # non-SI lengths
+grep -n 'dBm' paper.tex                                        # dBm: watts in the text, dB on figure axes
 ```
 
 Then read the PDF text for "e3", "e-", and stray `\%`.
