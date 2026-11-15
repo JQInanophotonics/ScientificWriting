@@ -12,144 +12,39 @@
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/banner-forewords.svg"/><img src="assets/banner-forewords.svg" width="97%" alt="Forewords"/></picture>
 
 This repository is the group's concise guide to writing a scientific paper.
-The README states the guidelines. The worked examples show how one guideline
-appears in a real paper through short excerpts and direct annotations.
-
-Read the guide first, then use the examples to see each rule applied. The
-current example is [The introduction is a
-scenario](Examples/01-IntroductionAsScenario.md).
+Each topic has its own page in `Writing/`, numbered in the order a paper is written.
+This README summarizes each page and links it. The examples in `Examples/` show
+how a rule appears in a real paper, through short excerpts and direct annotations.
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/banner-purpose.svg"/><img src="assets/banner-purpose.svg" width="97%" alt="A Paper Must Have a Purpose"/></picture>
 
-A scientific paper does not exist to report what you did. Its purpose is to change how a scientific community understands a problem.
+A paper does not report what you did. It changes how a community understands a problem. Full page: [01 — Purpose](Writing/01-Purpose.md).
 
-In the University of Chicago lecture [*The Craft of Writing Effectively*](https://www.youtube.com/watch?v=vtIzMaLkCaM), Larry McEnerney states:
-
-> "Nothing will be accepted as knowledge or understanding until it has been challenged by someone competent to challenge it."
-
-A new dataset is **not knowledge**. A new experiment is **not knowledge**. A new demonstration is **not knowledge**. New and original are not enough.
-
-McEnerney makes this point with two examples. Counting the people in a room produces information that nobody previously possessed. It is new and original. It is not knowledge because nobody finds it valuable. He also describes a researcher who discovered and studied previously unread travel journals. Her work was original, but her committee rejected it because she had not shown why anyone in the field should care.
-
-A result must be useful to a specific scientific community, survive challenges from competent readers, and be accepted by that community. A paper makes the case for that acceptance.
-
-Academic readers are not passive recipients. Their professional role is to challenge your claim. Therefore, do not write:
-
-> Here is what I discovered.
-
-Write:
-
-> Here is what this field currently accepts. However, there is a consequential problem in that understanding. Here is the change I propose, why it matters to you, and why the evidence should convince you.
+- New and original is not enough. A result becomes knowledge only when a competent community challenges and accepts it.
+- Write: what the field accepts, the consequential problem in it, the change you propose, and why the evidence should convince the reader.
+- Do not write the history of the project. Keep in the main text only what advances the argument; procedures go to Methods, secondary results to the Supplementary.
+- Each paragraph has one purpose: claim, evidence or reasoning, interpretation, consequence.
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/banner-introduction.svg"/><img src="assets/banner-introduction.svg" width="97%" alt="The Introduction Is a Scenario"/></picture>
 
-The introduction presents a result to the community and gives it a chance to become knowledge. Like any story, it needs a setting, a protagonist, an objective, a perturbation, and a resolution.
+The introduction tells a story in the order the reader needs it. Full page: [02 — The introduction is a scenario](Writing/02-Introduction.md), with an [annotated example](Examples/01-IntroductionAsScenario.md).
 
-1. **The setting.** Establish what the field currently accepts. Do not begin with a definition or general history. Begin with something your readers already value.
-2. **The protagonist.** Introduce the theory, technology, physical system, or established approach. The protagonist is not the author. The paper is not about us.
-3. **The objective.** State what the protagonist should provide and why it matters to the reader.
-4. **The perturbation.** Create tension with a limitation, contradiction, anomaly, tradeoff, or failed assumption. Words such as *but*, *however*, *although*, and *despite* often mark this turn. Inverting an established approach is one tool, not a requirement.
-5. **The stakes.** State what the problem prevents the community from understanding or doing. Without a consequence, the result may be new, but it is not valuable.
-6. **The proposed resolution.** Introduce the work as a direct response: *Here, we show...* It must not appear as an unrelated demonstration.
-7. **The challenge.** Anticipate what competent readers will doubt and state the evidence needed to answer them.
-8. **The resolution.** State what changes if the claim survives those tests.
-
-Scientific storytelling is not fiction or project history. It is the order in which the reader must encounter the ideas for the argument to make sense.
-
-Do not begin by explaining everything you know. First give the reader a reason to care. Then provide the background needed to understand the problem.
-
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/banner-write-only.svg"/><img src="assets/banner-write-only.svg" width="97%" alt="Write Only What Matters"/></picture>
-
-The reader does not care how long an experiment took, how difficult it was, or when the result appeared. Effort does not determine scientific importance.
-
-A result belongs in the main text only if it advances the argument or supplies evidence required to support it. Months of work may deserve one sentence or a supplementary figure. A simple control may deserve a central panel if it closes the argument.
-
-Keep only the ideas that carry the story in the main text. Put procedures in the Methods and supporting derivations, controls, and secondary results in the Supplementary Information.
-
-> **Do not write the history of the project. Write the argument the reader needs.**
-
-Each paragraph should have one purpose:
-
-> **Claim, evidence or reasoning, interpretation, consequence.**
-
-Remove anything that does not perform one of those jobs.
+- Setting, protagonist, objective, perturbation, stakes, proposed resolution, challenge, resolution.
+- Begin with something the reader already values, not a definition or a history.
+- The protagonist is the theory, technology or system, never the authors.
+- Give the reader a reason to care before the background.
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/banner-figures.svg"/><img src="assets/banner-figures.svg" width="97%" alt="Figures Construct the Argument"/></picture>
 
-"Let the data speak for themselves" is wrong. Data do not speak.
+Data do not speak. Figures build meaning through selection, comparison and annotation. Full page: [03 — Figures construct the argument](Writing/03-Figures.md).
 
-A figure creates meaning through selection, comparison, organization, annotation, and visual hierarchy. It tells a story that the data alone cannot.
-
-Each figure should answer one necessary question, with panels in a logical order. The figure presents the evidence. The text states what it demonstrates and why it matters.
-
-The abstract, figures, and captions should be enough to follow the main argument.
-
-### Make the evidence progress naturally
-
-Arrange the figures according to the questions a skeptical reader will ask. Do not arrange them according to the order in which the experiments were performed.
-
-A common progression is:
-
-> **Concept, mechanism, experimental proof, control, performance, application.**
-
-This is not a formula. Every figure should establish something required by the next one. If two can be exchanged without affecting the argument, their roles may be unclear.
-
-The introduction proposes a resolution. The figures test it. The discussion states what changes if it is accepted.
-
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/banner-strunk-white.svg"/><img src="assets/banner-strunk-white.svg" width="97%" alt="Follow Strunk and White"/></picture>
-
-The sentence-level rules in this guide come from William Strunk Jr. and E. B. White, *The Elements of Style*. Read the book.
-
-Apply these rules throughout the paper:
-
-- **Omit needless words.**
-- **Use definite, specific, concrete language.**
-- **State ideas positively.**
-- **Keep related words together.**
-- **Use parallel structure for parallel ideas.**
-- **Place the important words at the end of the sentence.**
-- **Give each paragraph one purpose.**
-
-Readers cannot challenge an argument they cannot follow.
-
-### A scientific exception to active voice
-
-Strunk and White advise writers to use the active voice. This should not be an absolute rule in a scientific paper.
-
-Begin with the setup, system, condition, or information already known to the reader. Move toward the new result. The authors should not automatically become the subject.
-
-Write:
-
-> The Kerr nonlinearity synchronizes the soliton to the reference field.
-
-Do not automatically write:
-
-> We show that the Kerr nonlinearity synchronizes the soliton to the reference field.
-
-Use passive voice when it preserves this order or when the actor does not matter.
-
-> **Begin with the setup. End with the result.**
-
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/banner-consistency.svg"/><img src="assets/banner-consistency.svg" width="97%" alt="Be Consistent"/></picture>
-
-Use the same terminology, symbols, units, colors, fonts, and visual conventions throughout the paper. Do not replace a precise term with a synonym to avoid repetition. A color, line style, or symbol must retain the same meaning in every figure. The reader should evaluate the science, not decode its presentation.
-
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/banner-notation.svg"/><img src="assets/banner-notation.svg" width="97%" alt="Notation and Units"/></picture>
-
-Write every number, unit and symbol the same way. The full set of rules, with the `siunitx` setup and checks to run before submission, is in [00 — Notation and units](Writing/00-NotationAndUnits.md). In short:
-
-- Every value with a unit goes through `\qty{}{}`, with unit macros (`\nm`, `\THz`, `\mW`), never typed by hand.
-- The symbol and the relation go inside `\qty`: `\qty{\nu_0 \approx 283}{\THz}`.
-- Approximately equal is `\simeq` or `\approx`, never `\sim`.
-- No e-notation: `\num{3e3}` prints "3e3". Write `$3\times10^{3}$`.
-- Frequency first, wavelength in parentheses: `\qty{\approx 283}{\THz} (\qty{1060}{\nm})`.
-- Math mode: sub- and superscripts on a symbol use `_` and `^`, with descriptive labels upright: `$\nu_\mathrm{rep}$`.
-- Text mode: sub- and superscripts on a word use `\textsubscript` and `\textsuperscript`: `TE\textsubscript{0}`, `k\textsuperscript{th}`.
-- Chemical formulas and isotopes use `\ce{}`: `\ce{Si3N4}`, `\ce{^{87}Rb}`.
+- Each figure answers one necessary question, with panels in a logical order.
+- Order the figures by the questions a skeptical reader asks, not by when the experiments were done.
+- The abstract, figures and captions are enough to follow the main argument.
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/banner-results.svg"/><img src="assets/banner-results.svg" width="97%" alt="The Results Section"/></picture>
 
-Show one result at a time, without repetition. The full rules, with examples from published papers and a worked bad/good example, are in [01 — The Results section](Writing/01-ResultsSection.md). In short:
+Show one result at a time, without repetition. Full page, with examples from published papers and a worked bad/good example: [04 — The Results section](Writing/04-Results.md).
 
 - One section per result, and its title states the result.
 - State what is expected before the measurement, and start every measurement with why it is done.
@@ -158,7 +53,27 @@ Show one result at a time, without repetition. The full rules, with examples fro
 - One name per object and one symbol per quantity. Define every symbol, then write the symbol instead of the words.
 - Define an acronym only if you use it again, then write only the acronym.
 - ν for signal frequencies (optical or microwave), f only for the Fourier frequency.
-- Always `\cref`, and every claim cites its figure panel.
+- Always `\cref`, and every claim cites its figure panel: `(\cref{fig:2}b)`.
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/banner-style.svg"/><img src="assets/banner-style.svg" width="97%" alt="Style"/></picture>
+
+Readers cannot challenge an argument they cannot follow. Full page: [05 — Style](Writing/05-Style.md).
+
+- Follow Strunk and White: omit needless words, use concrete language, keep related words together, put the important words at the end.
+- Begin with the setup, end with the result. The authors do not automatically become the subject.
+- Use the same terms, symbols, units, colors and line styles throughout. Never swap a precise term for a synonym.
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/banner-notation.svg"/><img src="assets/banner-notation.svg" width="97%" alt="Notation and Units"/></picture>
+
+Write every number, unit and symbol the same way. Full page, with the `siunitx` setup and checks to run before submission: [06 — Notation and units](Writing/06-NotationAndUnits.md).
+
+- Every value with a unit goes through `\qty{}{}`, with unit macros (`\nm`, `\THz`, `\mW`), never typed by hand.
+- The symbol and the relation go inside `\qty`: `\qty{\nu_0 \approx 283}{\THz}`.
+- Approximately equal is `\simeq` or `\approx`, never `\sim`. No e-notation.
+- Frequency first, wavelength in parentheses: `\qty{\approx 283}{\THz} (\qty{1060}{\nm})`.
+- Math mode: sub- and superscripts on a symbol use `_` and `^`, with descriptive labels upright: `$\nu_\mathrm{rep}$`.
+- Text mode: sub- and superscripts on a word use `\textsubscript` and `\textsuperscript`: `TE\textsubscript{0}`, `k\textsuperscript{th}`.
+- Chemical formulas and isotopes use `\ce{}`: `\ce{Si3N4}`, `\ce{^{87}Rb}`.
 
 <a id="pages"></a>
 
@@ -166,10 +81,13 @@ Show one result at a time, without repetition. The full rules, with examples fro
 
 | Page | What it covers |
 |------|-----------------|
-| [Main guide](README.md) | Purpose, narrative, selection, figures, sentence-level writing, and consistency |
+| [01 — Purpose](Writing/01-Purpose.md) | Why a paper exists, and what belongs in the main text |
+| [02 — The introduction is a scenario](Writing/02-Introduction.md) | The eight steps of an introduction |
+| [03 — Figures construct the argument](Writing/03-Figures.md) | What a figure does and how the figures progress |
+| [04 — The Results section](Writing/04-Results.md) | Structure of each result, names and symbols, references, and a worked bad/good example |
+| [05 — Style](Writing/05-Style.md) | Strunk and White, the active-voice exception, and consistency |
+| [06 — Notation and units](Writing/06-NotationAndUnits.md) | The `siunitx` setup, `\qty`, approximation signs, sub- and superscripts, `\ce`, and pre-submission checks |
 | [Example 1: The introduction is a scenario](Examples/01-IntroductionAsScenario.md) | Annotated introduction from the self-aligned PDCS paper |
-| [00 — Notation and units](Writing/00-NotationAndUnits.md) | The `siunitx` setup, `\qty` usage, approximation signs, sub- and superscripts, `\ce` formulas, and pre-submission checks |
-| [01 — The Results section](Writing/01-ResultsSection.md) | Structure of each result, device description, names and symbols, references, and a worked bad/good example |
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/banner-repo-layout.svg"/><img src="assets/banner-repo-layout.svg" width="97%" alt="What's in This Repo"/></picture>
 
@@ -177,8 +95,12 @@ Show one result at a time, without repetition. The full rules, with examples fro
 ScientificWriting/
 ├── README.md
 ├── Writing/
-│   ├── 00-NotationAndUnits.md
-│   └── 01-ResultsSection.md
+│   ├── 01-Purpose.md
+│   ├── 02-Introduction.md
+│   ├── 03-Figures.md
+│   ├── 04-Results.md
+│   ├── 05-Style.md
+│   └── 06-NotationAndUnits.md
 └── Examples/
     └── 01-IntroductionAsScenario.md
 ```

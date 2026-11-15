@@ -1,4 +1,4 @@
-# 00 — Notation and units
+# 06 — Notation and units
 
 Every value in a paper is written the same way. The reader should never notice how a number was typeset.
 These rules come from the self-aligned PDCS paper (Nature 2026) and the KIS interlocking draft.

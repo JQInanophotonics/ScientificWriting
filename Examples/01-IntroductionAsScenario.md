@@ -7,7 +7,7 @@ octave separated lasers*](https://arxiv.org/abs/2602.05151), arXiv:2602.05151
 (2026). [PDF](https://arxiv.org/pdf/2602.05151) |
 [DOI](https://doi.org/10.48550/arXiv.2602.05151)
 
-This example applies **The Introduction Is a Scenario** from the
+This example applies [02 — The introduction is a scenario](../Writing/02-Introduction.md) from the
 [main guide](../README.md).
 
 ## TL;DR
