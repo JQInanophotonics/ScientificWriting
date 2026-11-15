@@ -13,7 +13,7 @@ This example applies [05 — The Results section](../Writing/05-Results.md) from
 
 Each block names the rule, then shows a sentence written badly on purpose next to the sentence as published.
 
-### Every symbol defined, `\qty` and `\approx` ([Rule 10](../Writing/05-Results.md#rules), [Notation](../Writing/07-NotationAndUnits.md#rules))
+### Every symbol defined, `\qty` and `\approx` ([Rule 10](../Writing/05-Results.md#rules), [Notation](../Writing/08-NotationAndUnits.md#rules))
 
 | Bad | Good (published) |
 |---|---|
@@ -67,7 +67,7 @@ Each block names the rule, then shows a sentence written badly on purpose next t
 |---|---|
 | `rep rate / repetition rate / FSR / comb spacing; PDCS / soliton / comb` | `$\nu_\mathrm{rep}^\mathrm{pdcs}$ once defined; PDCS everywhere` |
 
-### SI units only ([Notation rule 4](../Writing/07-NotationAndUnits.md#rules))
+### SI units only ([Notation rule 4](../Writing/08-NotationAndUnits.md#rules))
 
 | Bad (published) | Good (corrected) |
 |---|---|

@@ -46,7 +46,7 @@ How a figure looks (fonts, line widths, colors, export) is covered in [Scientifi
 | Paper | Figure 1 |
 |---|---|
 | All-optical noise quenching, Optica 2025 | "DKS thermo-refractive noise and its circumvention through Kerr-induced synchronization (KIS)": **(a)** single pump scenario, then KIS |
-| Dynamic tuning of soliton microcomb repetition rate, Opt. Lett. 2025 | "Kerr-induced synchronization for dynamic comb repetition rate tuning": **a** typical approach for repetition rate tuning, **b** dynamic-KIS |
+| Dynamic tuning of soliton microcomb repetition rate, Optics Continuum 2025 | "Kerr-induced synchronization for dynamic comb repetition rate tuning": **a** typical approach for repetition rate tuning, **b** dynamic-KIS |
 | DKS self-balancing, PRA 2026 | "Soliton self-balancing mechanism through spectral energy redistribution under Kerr-induced synchronization": **a** single-pump DKS, **b** KIS regime |
 
 **One figure per Results section, with the same words (rule 2).** DKS self-balancing, PRA 2026:

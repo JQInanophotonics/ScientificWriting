@@ -1,4 +1,4 @@
-# 06 — Style
+# 07 — Style
 
 ## Follow Strunk and White
 
@@ -66,4 +66,4 @@ All four quotes: *Self-aligned optical microcomb emerging between octave separat
 
 Use the same terminology, symbols, units, colors, fonts, and visual conventions throughout the paper. Do not replace a precise term with a synonym to avoid repetition. A color, line style, or symbol must retain the same meaning in every figure. The reader should evaluate the science, not decode its presentation.
 
-The rules for numbers, units and symbols are in [07 — Notation and units](07-NotationAndUnits.md).
+The rules for numbers, units and symbols are in [08 — Notation and units](08-NotationAndUnits.md).

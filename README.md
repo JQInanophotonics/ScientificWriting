@@ -68,9 +68,21 @@ Show one result at a time, without repetition. Full page: [05 — The Results se
 - ν for signal frequencies (optical or microwave), f only for the Fourier frequency.
 - Always `\cref`, and every claim cites its figure panel: `(\cref{fig:2}b)`.
 
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/banner-conclusion.svg"/><img src="assets/banner-conclusion.svg" width="97%" alt="The Conclusion"/></picture>
+
+The conclusion mirrors the introduction: it answers the problem the introduction raised, then says what the answer makes possible. Full page: [06 — The conclusion closes the loop and opens](Writing/06-Conclusion.md). Worked example: [Example 3](Examples/03-ConclusionMirrorsIntroduction.md).
+
+- Letters and conference abstracts: an "In conclusion" paragraph (one or two sentences in an abstract). Long articles: a Discussion, without a recap of the Results.
+- Answer the problem of the introduction, in its words, and take back each limitation it listed, now removed, with the number.
+- In letters, recap each result once, in the order of the Results, with its number and its cause.
+- Return to the applications of the first paragraph of the introduction.
+- State the limitation that remains and why it is not fundamental.
+- Open: say what the work now makes possible, from the nearest step to the farthest, each with its mechanism.
+- No new result.
+
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/banner-style.svg"/><img src="assets/banner-style.svg" width="97%" alt="Style"/></picture>
 
-Readers cannot challenge an argument they cannot follow. Full page: [06 — Style](Writing/06-Style.md).
+Readers cannot challenge an argument they cannot follow. Full page: [07 — Style](Writing/07-Style.md).
 
 - Follow Strunk and White: omit needless words, use concrete language, keep related words together, put the important words at the end.
 - Begin with the setup or condition, end with the result. Make the physics the subject, not "we".
@@ -80,7 +92,7 @@ Readers cannot challenge an argument they cannot follow. Full page: [06 — Styl
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/banner-notation.svg"/><img src="assets/banner-notation.svg" width="97%" alt="Notation and Units"/></picture>
 
-Write every number, unit and symbol the same way. Full page, with the `siunitx` setup and checks to run before submission: [07 — Notation and units](Writing/07-NotationAndUnits.md).
+Write every number, unit and symbol the same way. Full page, with the `siunitx` setup and checks to run before submission: [08 — Notation and units](Writing/08-NotationAndUnits.md).
 
 - Every value with a unit goes through `\qty{}{}`, with unit macros (`\nm`, `\THz`, `\mW`), never typed by hand.
 - The symbol and the relation go inside `\qty`: `\qty{\nu_0 \approx 283}{\THz}`.
@@ -102,10 +114,12 @@ Write every number, unit and symbol the same way. Full page, with the `siunitx` 
 | [03 — The introduction is a scenario](Writing/03-Introduction.md) | The eight steps of an introduction |
 | [04 — Figures construct the argument](Writing/04-Figures.md) | What a figure does and how the figures progress |
 | [05 — The Results section](Writing/05-Results.md) | From the introduction to the Results, structure of each result, names and symbols, and references |
-| [06 — Style](Writing/06-Style.md) | Strunk and White, the active-voice exception, and consistency |
-| [07 — Notation and units](Writing/07-NotationAndUnits.md) | The `siunitx` setup, `\qty`, approximation signs, sub- and superscripts, `\ce`, and pre-submission checks |
+| [06 — The conclusion closes the loop and opens](Writing/06-Conclusion.md) | How the conclusion answers the introduction, the two formats, and what the work opens |
+| [07 — Style](Writing/07-Style.md) | Strunk and White, the active-voice exception, and consistency |
+| [08 — Notation and units](Writing/08-NotationAndUnits.md) | The `siunitx` setup, `\qty`, approximation signs, sub- and superscripts, `\ce`, and pre-submission checks |
 | [Example 1: The introduction is a scenario](Examples/01-IntroductionAsScenario.md) | Annotated introduction from the self-aligned PDCS paper |
 | [Example 2: Results sentences, bad and published](Examples/02-ResultsSentences.md) | Sentences written badly on purpose next to their published version in the self-aligned PDCS paper |
+| [Example 3: The conclusion mirrors the introduction](Examples/03-ConclusionMirrorsIntroduction.md) | Introduction and Discussion side by side in two published papers |
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/banner-repo-layout.svg"/><img src="assets/banner-repo-layout.svg" width="97%" alt="What's in This Repo"/></picture>
 
@@ -118,11 +132,13 @@ ScientificWriting/
 │   ├── 03-Introduction.md
 │   ├── 04-Figures.md
 │   ├── 05-Results.md
-│   ├── 06-Style.md
-│   └── 07-NotationAndUnits.md
+│   ├── 06-Conclusion.md
+│   ├── 07-Style.md
+│   └── 08-NotationAndUnits.md
 └── Examples/
     ├── 01-IntroductionAsScenario.md
-    └── 02-ResultsSentences.md
+    ├── 02-ResultsSentences.md
+    └── 03-ConclusionMirrorsIntroduction.md
 ```
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/banner-see-also.svg"/><img src="assets/banner-see-also.svg" width="97%" alt="See Also"/></picture>

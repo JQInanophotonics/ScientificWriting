@@ -18,3 +18,5 @@ Do not begin by explaining everything you know. First give the reader a reason t
 See the annotated introduction of the self-aligned PDCS paper in [Example 1: The introduction is a scenario](../Examples/01-IntroductionAsScenario.md).
 
 The last paragraph of the introduction sets the order of the Results. See [05 — The Results section](05-Results.md#from-the-introduction-to-the-results).
+
+The conclusion answers the problem of the introduction in its words. See [06 — The conclusion closes the loop and opens](06-Conclusion.md).
