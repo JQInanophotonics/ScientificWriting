@@ -70,11 +70,11 @@ A journal template without the class needs the same block in its preamble. Decla
 9. **Math mode: sub- and superscripts on a symbol use `_` and `^`.** A descriptive label is upright with `\mathrm`, a variable index is italic.
 
    ```latex
-   $\nu_\mathrm{rep}$, $f_\mathrm{ceo}$, $Q_\mathrm{c}$    % labels: upright
+   $\nu_\mathrm{rep}$, $\nu_\mathrm{ceo}$, $Q_\mathrm{c}$    % labels: upright
    $\nu_n$, $P_\pm$, $\chi^{(3)}$                     % variables: italic
    ```
 
-   Use `\mathrm`, not `\textrm` or `\text`. Write a given subscript the same way everywhere: not `Q_\mathrm{c}` in one sentence and `Q_c` in the next, nor `f_{ceo}` beside `f_\mathrm{ceo}`.
+   Use `\mathrm`, not `\textrm` or `\text`. Write a given subscript the same way everywhere: not `Q_\mathrm{c}` in one sentence and `Q_c` in the next, nor `\nu_{ceo}` beside `\nu_\mathrm{ceo}`.
 
 10. **Text mode: sub- and superscripts on a word use `\textsubscript` and `\textsuperscript`.** This covers ordinals, mode labels and state names.
 

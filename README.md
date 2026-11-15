@@ -48,8 +48,10 @@ The introduction tells a story in the order the reader needs it. Full page: [03 
 
 Data do not speak. Figures build meaning through selection, comparison and annotation. Full page: [04 — Figures construct the argument](Writing/04-Figures.md).
 
-- Each figure answers one necessary question, with panels in a logical order.
-- Order the figures by the questions a skeptical reader asks, not by when the experiments were done.
+- Each figure answers one necessary question. Order the figures by the questions a skeptical reader asks, not by when the experiments were done.
+- Figure 1 is the concept, often the conventional approach next to the new one.
+- One figure per Results section, named with the same words. The setup, simplified, is panel a of the figure that uses it.
+- The bold caption title states the message. The caption defines every color, marker and line, and a color keeps its meaning in every figure.
 - The abstract, figures and captions are enough to follow the main argument.
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/banner-results.svg"/><img src="assets/banner-results.svg" width="97%" alt="The Results Section"/></picture>
@@ -71,7 +73,9 @@ Show one result at a time, without repetition. Full page: [05 — The Results se
 Readers cannot challenge an argument they cannot follow. Full page: [06 — Style](Writing/06-Style.md).
 
 - Follow Strunk and White: omit needless words, use concrete language, keep related words together, put the important words at the end.
-- Begin with the setup, end with the result. The authors do not automatically become the subject.
+- Begin with the setup or condition, end with the result. Make the physics the subject, not "we".
+- Make the logic explicit (*because*, *therefore*), and state what is new against what is known (*unlike*, *in contrast*).
+- Replace qualitative words with numbers.
 - Use the same terms, symbols, units, colors and line styles throughout. Never swap a precise term for a synonym.
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/banner-notation.svg"/><img src="assets/banner-notation.svg" width="97%" alt="Notation and Units"/></picture>
