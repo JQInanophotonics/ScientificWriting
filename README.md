@@ -143,7 +143,8 @@ Write every number, unit and symbol the same way. The full set of rules, with th
 - Approximately equal is `\simeq` or `\approx`, never `\sim`.
 - No e-notation: `\num{3e3}` prints "3e3". Write `$3\times10^{3}$`.
 - Frequency first, wavelength in parentheses: `\qty{\approx 283}{\THz} (\qty{1060}{\nm})`.
-- Descriptive subscripts are upright (`\nu_\mathrm{rep}`). Sub- and superscripts on words use `\textsubscript` and `\textsuperscript` (`TE\textsubscript{0}`).
+- Math mode: sub- and superscripts on a symbol use `_` and `^`, with descriptive labels upright: `$\nu_\mathrm{rep}$`.
+- Text mode: sub- and superscripts on a word use `\textsubscript` and `\textsuperscript`: `TE\textsubscript{0}`, `k\textsuperscript{th}`.
 - Chemical formulas and isotopes use `\ce{}`: `\ce{Si3N4}`, `\ce{^{87}Rb}`.
 
 <a id="pages"></a>

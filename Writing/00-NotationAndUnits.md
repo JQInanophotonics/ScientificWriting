@@ -67,26 +67,32 @@ A journal template without the class needs the same block in its preamble. Decla
 
 8. **Keep the same precision for the same quantity.** Do not write `\qty{316.20}{\mW}` in one place and `\qty{316.2}{\mW}` in another.
 
-9. **Descriptive subscripts are upright, variables are italic.** Write `\nu_\mathrm{rep}`, `f_\mathrm{ceo}`, `Q_\mathrm{c}`, but `\nu_n` or `P_\pm` when the index is a variable. Use `\mathrm`, not `\textrm` or `\text`. Write a given subscript the same way everywhere: not `Q_\mathrm{c}` in one sentence and `Q_c` in the next, nor `f_{ceo}` beside `f_\mathrm{ceo}`.
+9. **Math mode: sub- and superscripts on a symbol use `_` and `^`.** A descriptive label is upright with `\mathrm`, a variable index is italic.
 
-10. **Use `\times` for products and `\nicefrac` for inline ratios.**
+   ```latex
+   $\nu_\mathrm{rep}$, $f_\mathrm{ceo}$, $Q_\mathrm{c}$    % labels: upright
+   $\nu_n$, $P_\pm$, $\chi^{(3)}$                     % variables: italic
+   ```
+
+   Use `\mathrm`, not `\textrm` or `\text`. Write a given subscript the same way everywhere: not `Q_\mathrm{c}` in one sentence and `Q_c` in the next, nor `f_{ceo}` beside `f_\mathrm{ceo}`.
+
+10. **Text mode: sub- and superscripts on a word use `\textsubscript` and `\textsuperscript`.** This covers ordinals, mode labels and state names.
+
+    ```latex
+    the $m$\textsuperscript{th} sideband
+    the k\textsuperscript{th} comb tooth
+    the TE\textsubscript{0} mode
+    the 5S\textsubscript{1/2} state
+    ```
+
+    Never write `TE$_0$` or `5S$_{1/2}$`: math mode switches the font and the spacing in the middle of a word.
+
+11. **Use `\times` for products and `\nicefrac` for inline ratios.**
 
     ```latex
     an OFD factor of 801 ($89 \times 9$)
     $\nicefrac{K}{M}$
     ```
-
-11. **Sub- and superscripts on text use text commands. Sub- and superscripts on symbols use math mode.** A label that is a word, an ordinal or a state name stays in text.
-
-    ```latex
-    the $m$\textsuperscript{th} sideband        % ordinal on a math index
-    the k\textsuperscript{th} comb tooth          % ordinal on a plain letter
-    the TE\textsubscript{0} mode                  % mode label
-    the 5S\textsubscript{1/2} state               % atomic state
-    $\chi^{(3)}$, $\nu_\mathrm{rep}$, $P_\pm$     % symbols: math mode
-    ```
-
-    Never write `TE$_0$` or `5S$_{1/2}$`: math mode switches the font and the spacing in the middle of a word.
 
 12. **Chemical formulas and isotopes use `\ce{}` from `mhchem`.** Load `\usepackage[version=4]{mhchem}`. Digits become subscripts automatically, so write `\ce{Si3N4}`, not `\ce{Si_3N_4}` or `Si$_3$N$_4$`.
 
