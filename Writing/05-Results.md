@@ -1,12 +1,53 @@
-# 04 — The Results section
+# 05 — The Results section
 
 The Results section shows, one result at a time, the evidence the introduction promised. Every sentence either says why a measurement is made, what is expected, what is measured, or what it confirms. Anything else is repetition or belongs in Methods.
+
+## From the introduction to the Results
+
+The last paragraph of the introduction is the table of contents of the Results, and the Discussion closes it. This is what makes the paper read as one argument.
+
+1. **The last paragraph of the introduction states each claim in the order the Results show it.** Each claim becomes one Results section.
+2. **Each section reuses the words of its claim.** In the title when the format has titles, otherwise in the first sentence of the section.
+3. **Each section opens with what the previous one established and what is still open.**
+4. **The Discussion opens by restating the claim of the introduction, now as demonstrated, in the same words.**
+
+The claims of the introduction and the sections of the Results in *Toward chaotic group velocity hopping of an on-chip DKS* (PRL 2025):
+
+| Last paragraph of the introduction | Results section |
+|---|---|
+| "we demonstrate the second-order Adler equation's validity for KIS" | Phase-Modulated Adler Model |
+| "We quantitatively validate the model against experiments and Lugiato-Lefever simulations" | Model Verification |
+| "we leverage the Adler model's predictions to experimentally show chaotic DKS hopping […], resulting in chaotic group velocity hopping" | Chaotic group velocity hopping |
+
+The self-aligned PDCS paper (Nature 2026) does the same: advances (i) and (ii) of the introduction become "Concept and experimental demonstration", and "the three core tasks of self-referenced OFCs" become "Self-aligned PDCS metrology".
+
+Section openings that carry the thread (rule 3 above):
+
+> Having shown that the second-order Adler equation accurately describes the soliton phase dynamics under KIS, we now apply this model to predict the regime in which chaotic behavior of the DKS is expected.
+>
+> — AC-KIS, PRL 2025
+
+> The above empirical demonstration highlights the coherent trapping aspect of the multi-DKS state to the same reference field, yet does not fully elucidate the solitons' relative dynamical stability.
+>
+> — All-optical azimuthal trapping of Kerr multi-solitons, APL Photonics 2025
+
+> Having established the self-balancing behavior in purely quadratic and in cubic integrated dispersion systems, we now extend our analysis to a resonator with an experimentally realistic and desirable quartic dispersion that supports two dispersive waves.
+>
+> — DKS self-balancing, PRA 2026
+
+The introduction and the Discussion in the same words (rule 4 above):
+
+> Here, we theoretically analyze and experimentally demonstrate the profound improvements that KIS enables on both the repetition rate noise and individual comb tooth noise in DKS microcombs.
+>
+> In conclusion, we have demonstrated both theoretically and experimentally that Kerr-induced synchronization (KIS) enables, in an all-optical fashion, quenching of internal noise sources in integrated optical frequency combs […]
+>
+> — All-optical noise quenching, Optica 2025
 
 ## Rules
 
 ### Structure
 
-1. **One section per result, and its title states the result.** Write "KIS damps the thermorefractive noise", not "Noise measurements".
+1. **One section per result.** If the format has section titles, the title states the result: "KIS damps the thermorefractive noise", not "Noise measurements".
 2. **Say what is expected before showing the measurement.** Give the model, equation or simulation first, so the reader knows what to look for in the figure.
 3. **Start every measurement with why it is done.** The reader must know what question the measurement answers before reading how it is made.
 4. **End every measurement with the number, compared to what was expected, and what it confirms.** A measurement without a number and a comparison proves nothing.
@@ -31,7 +72,7 @@ The Results section shows, one result at a time, the evidence the introduction p
 14. **Always use `\cref`.** Never "Eq. (2)", "equation (\ref{})" or "figure \ref{}".
 15. **Every claim cites the figure panel that shows it**, at the end of the sentence: `(\cref{fig:2}b)`.
 
-Notation and units follow [06 — Notation and units](06-NotationAndUnits.md).
+Notation and units follow [07 — Notation and units](07-NotationAndUnits.md).
 
 ## In published papers
 

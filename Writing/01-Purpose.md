@@ -1,6 +1,4 @@
-# 01 — Purpose
-
-## A paper must have a purpose
+# 01 — A paper must have a purpose
 
 A scientific paper does not exist to report what you did. Its purpose is to change how a scientific community understands a problem.
 
@@ -22,18 +20,4 @@ Write:
 
 > Here is what this field currently accepts. However, there is a consequential problem in that understanding. Here is the change I propose, why it matters to you, and why the evidence should convince you.
 
-## Write only what matters
-
-The reader does not care how long an experiment took, how difficult it was, or when the result appeared. Effort does not determine scientific importance.
-
-A result belongs in the main text only if it advances the argument or supplies evidence required to support it. Months of work may deserve one sentence or a supplementary figure. A simple control may deserve a central panel if it closes the argument.
-
-Keep only the ideas that carry the story in the main text. Put procedures in the Methods and supporting derivations, controls, and secondary results in the Supplementary Information.
-
-> **Do not write the history of the project. Write the argument the reader needs.**
-
-Each paragraph should have one purpose:
-
-> **Claim, evidence or reasoning, interpretation, consequence.**
-
-Remove anything that does not perform one of those jobs.
+What this means for each paragraph and each result is in [02 — Write only what matters](02-WriteOnlyWhatMatters.md).

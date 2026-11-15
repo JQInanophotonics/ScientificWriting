@@ -1,4 +1,4 @@
-# 02 — The introduction is a scenario
+# 03 — The introduction is a scenario
 
 The introduction presents a result to the community and gives it a chance to become knowledge. Like any story, it needs a setting, a protagonist, an objective, a perturbation, and a resolution.
 
@@ -16,3 +16,5 @@ Scientific storytelling is not fiction or project history. It is the order in wh
 Do not begin by explaining everything you know. First give the reader a reason to care. Then provide the background needed to understand the problem.
 
 See the annotated introduction of the self-aligned PDCS paper in [Example 1: The introduction is a scenario](../Examples/01-IntroductionAsScenario.md).
+
+The last paragraph of the introduction sets the order of the Results. See [05 — The Results section](05-Results.md#from-the-introduction-to-the-results).
