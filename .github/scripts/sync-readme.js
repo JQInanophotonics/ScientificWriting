@@ -5,8 +5,8 @@ const { markdownToBlocks } = require('@tryfabric/martian');
 const notion = new Client({ auth: process.env.NOTION_TOKEN });
 const pageId = process.env.NOTION_PAGE_ID;
 
-const rawBase  = 'https://raw.githubusercontent.com/JQInanophotonics/pyprettyplot/main/';
-const blobBase = 'https://github.com/JQInanophotonics/pyprettyplot/blob/main/';
+const rawBase  = 'https://raw.githubusercontent.com/JQInanophotonics/ScientificWriting/main/';
+const blobBase = 'https://github.com/JQInanophotonics/ScientificWriting/blob/main/';
 
 let md = fs.readFileSync('README.md', 'utf8');
 
