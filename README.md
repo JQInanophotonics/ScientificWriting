@@ -51,7 +51,9 @@ Data do not speak. Figures build meaning through selection, comparison and annot
 - Each figure answers one necessary question. Order the figures by the questions a skeptical reader asks, not by when the experiments were done.
 - Figure 1 is the concept, often the conventional approach next to the new one.
 - One figure per Results section, named with the same words. The setup, simplified, is panel a of the figure that uses it.
-- The bold caption title states the message. The caption defines every color, marker and line, and a color keeps its meaning in every figure.
+- One color per physical object (a pump, a regime, a locking path), the same in every figure, setup drawings included. Never reuse a color for something else.
+- Measured data are markers, simulations and theory are lines.
+- The bold caption title states the message. The caption defines every color, marker and line.
 - The abstract, figures and captions are enough to follow the main argument.
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/banner-results.svg"/><img src="assets/banner-results.svg" width="97%" alt="The Results Section"/></picture>

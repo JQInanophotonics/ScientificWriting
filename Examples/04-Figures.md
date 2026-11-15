@@ -24,7 +24,7 @@ Top to bottom: All-optical noise quenching, Dynamic tuning of soliton microcomb 
 
 <p><img src="figures/self-balancing-fig2.png" width="32%" alt="DKS self-balancing, Fig. 2"/> <img src="figures/self-balancing-fig3.png" width="32%" alt="DKS self-balancing, Fig. 3"/> <img src="figures/self-balancing-fig4.png" width="32%" alt="DKS self-balancing, Fig. 4"/></p>
 
-DKS self-balancing, PRA 2026, Figs. 2, 3 and 4: one figure per Results section, and the same colors in all three (purple: single pump, blue: KIS).
+DKS self-balancing, PRA 2026, Figs. 2, 3 and 4: one figure per Results section, and the same colors in all three (purple: single pump, blue: KIS, [rule 4](../Writing/04-Figures.md#the-set-of-figures)).
 
 | Results section | Figure title |
 |---|---|
@@ -42,26 +42,41 @@ DKS self-balancing, PRA 2026. In the self-aligned PDCS paper (Nature 2026), the 
 |---|---|
 | Self-aligned PDCS, Nature 2026, Fig. 4 | **a** Simplified experimental setup for optical frequency synthesis using a self-aligned PDCS microcomb. |
 
-### Colors, markers and lines keep their meaning, and the caption defines them ([Rules 4 and 7](../Writing/04-Figures.md#the-set-of-figures))
+### One color per physical object, the same in every figure ([Rule 4](../Writing/04-Figures.md#the-set-of-figures))
 
-<p><img src="figures/self-aligned-pdcs-fig2.png" width="100%" alt="Self-aligned PDCS, Fig. 2"/></p>
+<p><img src="figures/self-aligned-pdcs-fig2.png" width="49%" alt="Self-aligned PDCS, Fig. 2"/> <img src="figures/self-aligned-pdcs-fig4.png" width="49%" alt="Self-aligned PDCS, Fig. 4"/></p>
+
+Self-aligned PDCS, Nature 2026, Fig. 2 (left) and Fig. 4 (right).
+
+| Color | Object | Where it appears |
+|---|---|---|
+| Red | the pump at $\nu_-$ (C-band) | Fig. 2b label $n_-$, $\nu_-$; Fig. 4a laser $\nu_-$; Fig. 4b red side of the spectrum and its label; Fig. 4d "C-band detected $\nu_\mathrm{rep}^\mathrm{pdcs}$" |
+| Blue | the pump at $\nu_+$ (visible) | Fig. 2b label $n_+$, $\nu_+$; Fig. 4a laser $\nu_+$ and its $\nu_\mathrm{ceo}^\mathrm{pdcs}$ locking path; Fig. 4b blue side of the spectrum and its label |
+| Purple | the $\nu_\mathrm{rep}^\mathrm{pdcs}$ locking path | Fig. 4a locking branch; Fig. 4b purple part of the spectrum; Fig. 4d "280 THz locked $\nu_\mathrm{rep}^\mathrm{pdcs}$" |
+
+The setup in Fig. 4a uses the same colors as the spectra and traces it produces, so the reader follows each signal from the bench to the data.
+
+In DKS self-balancing (PRA 2026), purple is the single-pump soliton and blue the KIS soliton in Figs. 2, 3 and 4 (shown above, rule 2).
+
+### Markers for data, lines for models, defined in the caption ([Rules 5 and 8](../Writing/04-Figures.md#the-set-of-figures))
+
+Self-aligned PDCS, Nature 2026, Fig. 2a, shown above.
 
 | Paper, figure | Caption |
 |---|---|
 | Self-aligned PDCS, Nature 2026, Fig. 2a | OPO frequency mismatch $\Delta\nu$ (circles: measured, solid line: simulation) […] PDCS integrated dispersion $D_{\mathrm{int}}(n-n_0)$ (squares: measured, dashed line: simulation) |
-| DKS self-balancing, PRA 2026, Figs. 2, 3 and 4 | Blue is "with KIS" and purple is "without KIS" in every figure. |
 
-### The bold title states the message ([Rule 5](../Writing/04-Figures.md#the-caption))
+### The bold title states the message ([Rule 6](../Writing/04-Figures.md#the-caption))
 
 <p><img src="figures/self-aligned-pdcs-fig3.png" width="100%" alt="Self-aligned PDCS, Fig. 3"/></p>
 
-The same figure illustrates rule 9 below.
+The same figure illustrates rule 10 below.
 
 | Plot type | Message (published) |
 |---|---|
 | Optical spectra of ten devices | **Wafer-scale self-aligned PDCS yield and active thermal tuning** (Self-aligned PDCS, Nature 2026, Fig. 3) |
 
-### The panel ends with what it confirms ([Rule 9](../Writing/04-Figures.md#the-caption))
+### The panel ends with what it confirms ([Rule 10](../Writing/04-Figures.md#the-caption))
 
 | Paper, figure | Caption |
 |---|---|
