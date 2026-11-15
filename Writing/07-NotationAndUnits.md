@@ -51,7 +51,7 @@ A journal template without the class needs the same block in its preamble. Decla
 
 4. **Use SI units only.** Never inches, mils or feet. Write `\qty{100}{\mm} wafer`, not "four-inch wafer".
 
-5. **dBm is not an SI unit.** In the text, give the power in watts, with dBm in parentheses only if it helps: `above \qty{1}{\nW} (i.e., \qty{-60}{\dBm})`. In a figure, label the axis in dB and state the reference in the caption: "Power normalized to \qty{1}{\mW} (\qty{}{\dBm})."
+5. **dBm is not an SI unit.** In a figure, label the axis in dB and state the reference in the caption: "Power normalized to \qty{1}{\mW} (\qty{}{\dBm})."
 
 6. **Approximately equal is `\simeq` or `\approx`, never `\sim`.** `\sim` means "of the order of" or "scales as". Use one of the first two throughout a paper.
 
@@ -117,7 +117,6 @@ grep -nE '_\{[a-z]{2,}\}' paper.tex                        # italic descriptive 
 grep -nE '[A-Za-z]\$[_^]' paper.tex                         # math sub/superscript glued to a word
 grep -nE 'Si\$?_\{?3|SiO\$?_\{?2|(^|[^{])(Si3N4|SiO2)' paper.tex # formula outside \ce, or with _
 grep -nE 'inch|[0-9]~?in\b|mil\b' paper.tex                  # non-SI lengths
-grep -n 'dBm' paper.tex                                        # dBm: watts in the text, dB on figure axes
 ```
 
 Then read the PDF text for "e3", "e-", and stray `\%`.

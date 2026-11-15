@@ -84,7 +84,7 @@ Write every number, unit and symbol the same way. Full page, with the `siunitx` 
 
 - Every value with a unit goes through `\qty{}{}`, with unit macros (`\nm`, `\THz`, `\mW`), never typed by hand.
 - The symbol and the relation go inside `\qty`: `\qty{\nu_0 \approx 283}{\THz}`.
-- SI units only: `\qty{100}{\mm}` wafer, never "four-inch". dBm is not SI: watts in the text, dB on figure axes with "normalized to 1 mW (dBm)" in the caption.
+- SI units only: `\qty{100}{\mm}` wafer, never "four-inch". dBm is not SI: in figures, the axis is in dB and the caption says "normalized to 1 mW (dBm)".
 - Approximately equal is `\simeq` or `\approx`, never `\sim`. No e-notation.
 - Frequency first, wavelength in parentheses: `\qty{\approx 283}{\THz} (\qty{1060}{\nm})`.
 - Math mode: sub- and superscripts on a symbol use `_` and `^`, with descriptive labels upright: `$\nu_\mathrm{rep}$`.
