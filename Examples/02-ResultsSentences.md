@@ -3,9 +3,8 @@
 ## Paper
 
 Grégory Moille *et al.*, [*Self-aligned optical microcomb emerging between
-octave separated lasers*](https://arxiv.org/abs/2602.05151), arXiv:2602.05151
-(2026). [PDF](https://arxiv.org/pdf/2602.05151) |
-[DOI](https://doi.org/10.48550/arXiv.2602.05151)
+octave separated lasers*](https://doi.org/10.1038/s41586-026-11086-2),
+Nature **658**, 350–357 (2026).
 
 This example applies [05 — The Results section](../Writing/05-Results.md) from the
 [main guide](../README.md).
