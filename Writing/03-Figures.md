@@ -1,4 +1,4 @@
-# 04 — Figures construct the argument
+# 03 — Figures construct the argument
 
 "Let the data speak for themselves" is wrong. Data do not speak.
 

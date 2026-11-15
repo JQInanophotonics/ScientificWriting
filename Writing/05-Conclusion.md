@@ -1,4 +1,4 @@
-# 06 — The conclusion closes the loop and opens
+# 05 — The conclusion closes the loop and opens
 
 The conclusion is the mirror of the introduction. The introduction set up a problem: what the field accepts, what it cannot do, and why that matters. The conclusion answers that problem, point by point and in the same words, then turns outward and says what the answer now makes possible.
 
@@ -40,7 +40,7 @@ The Discussion is longer than a letter's conclusion because each of these points
    The introduction ended on something that is missing, unverified, or impossible: a model that only agrees qualitatively, a question nobody has answered, a signal too weak to use. The first sentence of the conclusion states that this is now done.
    - Reuse the nouns and verbs of the introduction. If the introduction wrote that a model "remains experimentally unverified", the conclusion writes that the work "quantitatively verifies" it. The reader must recognize the question without going back.
    - If the introduction asked a question, the conclusion answers that question, not a nearby one.
-   - Restate the claim of the last paragraph of the introduction as demonstrated. The Results opened with this claim; the conclusion closes with it (see [05 — The Results section](05-Results.md#from-the-introduction-to-the-results)).
+   - Restate the claim of the last paragraph of the introduction as demonstrated. The Results opened with this claim; the conclusion closes with it (see [04 — The Results section](04-Results.md#from-the-introduction-to-the-results)).
 
 2. **Take back each limitation the introduction listed, and show it removed.**
    The introduction justified the work by listing what the conventional approach cannot do. Each item on that list must come back in the conclusion, now resolved.

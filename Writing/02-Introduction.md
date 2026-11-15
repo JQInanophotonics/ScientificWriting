@@ -1,4 +1,4 @@
-# 03 — The introduction is a scenario
+# 02 — The introduction is a scenario
 
 The introduction presents a result to the community and gives it a chance to become knowledge. Like any story, it needs a setting, a protagonist, an objective, a perturbation, and a resolution.
 
@@ -17,6 +17,6 @@ Do not begin by explaining everything you know. First give the reader a reason t
 
 See the annotated introduction of the self-aligned PDCS paper in [Example 1: The introduction is a scenario](../Examples/01-IntroductionAsScenario.md).
 
-The last paragraph of the introduction sets the order of the Results. See [05 — The Results section](05-Results.md#from-the-introduction-to-the-results).
+The last paragraph of the introduction sets the order of the Results. See [04 — The Results section](04-Results.md#from-the-introduction-to-the-results).
 
-The conclusion answers the problem of the introduction in its words. See [06 — The conclusion closes the loop and opens](06-Conclusion.md).
+The conclusion answers the problem of the introduction in its words. See [05 — The conclusion closes the loop and opens](05-Conclusion.md).

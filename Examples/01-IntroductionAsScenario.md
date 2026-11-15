@@ -6,7 +6,7 @@ Grégory Moille *et al.*, [*Self-aligned optical microcomb emerging between
 octave separated lasers*](https://doi.org/10.1038/s41586-026-11086-2),
 Nature **658**, 350–357 (2026).
 
-This example applies [03 — The introduction is a scenario](../Writing/03-Introduction.md) from the
+This example applies [02 — The introduction is a scenario](../Writing/02-Introduction.md) from the
 [main guide](../README.md).
 
 ## TL;DR

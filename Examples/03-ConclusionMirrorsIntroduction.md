@@ -1,6 +1,6 @@
 # Example 3: The conclusion mirrors the introduction
 
-This example applies [06 — The conclusion closes the loop and opens](../Writing/06-Conclusion.md) from the [main guide](../README.md). Each block names the rule, then puts a sentence of the introduction next to the sentence of the conclusion that answers it. All sentences are as published.
+This example applies [05 — The conclusion closes the loop and opens](../Writing/05-Conclusion.md) from the [main guide](../README.md). Each block names the rule, then puts a sentence of the introduction next to the sentence of the conclusion that answers it. All sentences are as published.
 
 ## Papers
 
@@ -11,7 +11,7 @@ This example applies [06 — The conclusion closes the loop and opens](../Writin
 - TRN: *All-optical noise quenching of an integrated frequency comb*, Optica (2025).
 - Self-balancing: *DKS self-balancing from Kerr-induced synchronization*, Physical Review A (2026).
 
-### Answer the problem, in its words ([Rule 1](../Writing/06-Conclusion.md#rules))
+### Answer the problem, in its words ([Rule 1](../Writing/05-Conclusion.md#rules))
 
 | Introduction | Conclusion |
 |---|---|
@@ -20,7 +20,7 @@ This example applies [06 — The conclusion closes the loop and opens](../Writin
 | `However, thus far this model has only demonstrated qualitative agreement in the KIS DC regime, and its second-order temporal derivative---crucial for chaotic DKS---remains experimentally unverified.` (AC-KIS) | `In conclusion, our combined experimental and theoretical work quantitatively verifies that the second-order Adler model accurately describes KIS DKS dynamics.` |
 | `We show that by simply changing how the input lasers are locked, the same self-aligned PDCS can perform the three core tasks of self-referenced OFCs [...]` (Self-aligned PDCS) | `We demonstrate the benefit of this versatility by performing three key tasks for integrated OFC systems [...]` |
 
-### Take back each limitation, removed ([Rule 2](../Writing/06-Conclusion.md#rules))
+### Take back each limitation, removed ([Rule 2](../Writing/05-Conclusion.md#rules))
 
 | Introduction | Conclusion |
 |---|---|
@@ -29,7 +29,7 @@ This example applies [06 — The conclusion closes the loop and opens](../Writin
 | `applications that require coexistence of distinguishable binary elements are fundamentally beyond reach.` (PDCS) | `Finally, the fact that PDCSs come in two forms with opposite phase opens the doors to a new range of applications that require a binary degree of freedom, including all-optical random number generation and realisations of coherent optical Ising machines.` |
 | `these integrated microcombs fall short in their repetition rate noise performance - primarily due to their poor ability to manage the cavity thermorefractive noise (TRN), which increases inversely with the resonator size.` (TRN) | `Our work demonstrates that despite the low modal volume of integrated microcombs, which makes them predisposed to large TRN that can greatly hinder their performance, KIS can enable ultra-low-noise performance [...]` |
 
-### Recap each result, in order, with its number ([Rule 3](../Writing/06-Conclusion.md#rules))
+### Recap each result, in order, with its number ([Rule 3](../Writing/05-Conclusion.md#rules))
 
 | Results section | Conclusion |
 |---|---|
@@ -38,7 +38,7 @@ This example applies [06 — The conclusion closes the loop and opens](../Writin
 | `Dispersive wave enhancement with quartic dispersion` (Self-balancing) | `For a quartic-dispersion resonator supporting two DWs, we showed that synchronizing the soliton at the low-frequency DW results in significant self-balancing-induced enhancement of the high-frequency DW power.` |
 | No section titles (TRN) | `The repetition rate noise is suppressed by more than four orders of magnitude compared to free-running single pumped-DKS, and is about an order of magnitude lower than the minimum TRN that the singly-pumped DKS could exhibit in our system.` |
 
-### Return to the stakes of the first paragraph ([Rule 4](../Writing/06-Conclusion.md#rules))
+### Return to the stakes of the first paragraph ([Rule 4](../Writing/05-Conclusion.md#rules))
 
 | Introduction | Conclusion |
 |---|---|
@@ -46,13 +46,13 @@ This example applies [06 — The conclusion closes the loop and opens](../Writin
 | `The analogy between optical and mechanical clocks in which the OFC is likened to gears is often drawn [...]` (KIS) | `Analogous to mechanical clockworks, passive synchronization is enabled by direct coupling to the reference.` |
 | `Rather than an obstacle, optical chaos enables high-speed random number generation, secure communication, and reservoir computing.` (AC-KIS) | `Our work presents a new tool for generating optical chaos on a low-power, on-chip platform, harnessing a single low-noise DKS with the secure randomness of chaotic systems.` |
 
-### State the limitation that remains ([Rule 5](../Writing/06-Conclusion.md#rules))
+### State the limitation that remains ([Rule 5](../Writing/05-Conclusion.md#rules))
 
 | Limitation | Why it is not fundamental |
 |---|---|
 | `Although detecting our large repetition rate currently requires a phase modulator apparatus for downconversion,` (Self-aligned PDCS) | `this high repetition rate is an integral part of the architecture. For a self-referenced platform, a large repetition rate prevents pump power from being diluted into densely packed comb teeth spread across the entirety of the spectrum, most of which serve no metrological purpose.` |
 
-### Say what the work makes possible ([Rule 6](../Writing/06-Conclusion.md#rules))
+### Say what the work makes possible ([Rule 6](../Writing/05-Conclusion.md#rules))
 
 | Introduction | Conclusion |
 |---|---|

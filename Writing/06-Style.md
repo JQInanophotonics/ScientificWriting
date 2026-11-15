@@ -1,4 +1,4 @@
-# 07 — Style
+# 06 — Style
 
 ## Follow Strunk and White
 
@@ -59,4 +59,4 @@ Use passive voice when it preserves this order or when the actor does not matter
 
 Use the same terminology, symbols, units, colors, fonts, and visual conventions throughout the paper. Do not replace a precise term with a synonym to avoid repetition. A color, line style, or symbol must retain the same meaning in every figure. The reader should evaluate the science, not decode its presentation.
 
-The rules for numbers, units and symbols are in [08 — Notation and units](08-NotationAndUnits.md).
+The rules for numbers, units and symbols are in [07 — Notation and units](07-NotationAndUnits.md).

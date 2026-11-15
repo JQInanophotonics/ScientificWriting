@@ -20,4 +20,4 @@ Write:
 
 > Here is what this field currently accepts. However, there is a consequential problem in that understanding. Here is the change I propose, why it matters to you, and why the evidence should convince you.
 
-What this means for each paragraph and each result is in [02 — Write only what matters](02-WriteOnlyWhatMatters.md).
+What this means for each paragraph and each result is in [Write only what matters](../README.md#write-only-what-matters).

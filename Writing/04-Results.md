@@ -1,4 +1,4 @@
-# 05 — The Results section
+# 04 — The Results section
 
 The Results section shows, one result at a time, the evidence the introduction promised. Every sentence either says why a measurement is made, what is expected, what is measured, or what it confirms. Anything else is repetition or belongs in Methods.
 
@@ -9,7 +9,7 @@ The last paragraph of the introduction is the table of contents of the Results, 
 1. **The last paragraph of the introduction states each claim in the order the Results show it.** Each claim becomes one Results section.
 2. **Each section reuses the words of its claim.** In the title when the format has titles, otherwise in the first sentence of the section.
 3. **Each section opens with what the previous one established and what is still open.**
-4. **The Discussion opens by restating the claim of the introduction, now as demonstrated, in the same words.** See [06 — The conclusion closes the loop and opens](06-Conclusion.md).
+4. **The Discussion opens by restating the claim of the introduction, now as demonstrated, in the same words.** See [05 — The conclusion closes the loop and opens](05-Conclusion.md).
 
 The claims of the introduction and the sections of the Results in *Toward chaotic group velocity hopping of an on-chip DKS* (PRL 2025):
 
@@ -72,7 +72,7 @@ The introduction and the Discussion in the same words (rule 4 above):
 14. **Always use `\cref`.** Never "Eq. (2)", "equation (\ref{})" or "figure \ref{}".
 15. **Every claim cites the figure panel that shows it**, at the end of the sentence: `(\cref{fig:2}b)`.
 
-Notation and units follow [08 — Notation and units](08-NotationAndUnits.md).
+Notation and units follow [07 — Notation and units](07-NotationAndUnits.md).
 
 ## In published papers
 

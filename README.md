@@ -16,6 +16,27 @@ Each topic has its own page in `Writing/`, numbered in the order a paper is writ
 This README summarizes each page and links it. The examples in `Examples/` show
 how a rule appears in a real paper, through short excerpts and direct annotations.
 
+<a id="write-only-what-matters"></a>
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/banner-write-only.svg"/><img src="assets/banner-write-only.svg" width="97%" alt="Write Only What Matters"/></picture>
+
+> [!IMPORTANT]
+> **Write only what matters.** This is the most important rule of the guide; every page that follows applies it.
+>
+> **Do not write the history of the project. Write the argument the reader needs.**
+
+The reader does not care how long an experiment took, how difficult it was, or when the result appeared. Effort does not determine scientific importance.
+
+A result belongs in the main text only if it advances the argument or supplies evidence required to support it. Months of work may deserve one sentence or a supplementary figure. A simple control may deserve a central panel if it closes the argument.
+
+Keep only the ideas that carry the story in the main text. Put procedures in the Methods and supporting derivations, controls, and secondary results in the Supplementary Information.
+
+Each paragraph should have one purpose:
+
+> **Claim, evidence or reasoning, interpretation, consequence.**
+
+Remove anything that does not perform one of those jobs.
+
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/banner-purpose.svg"/><img src="assets/banner-purpose.svg" width="97%" alt="A Paper Must Have a Purpose"/></picture>
 
 A paper does not report what you did. It changes how a community understands a problem. Full page: [01 — A paper must have a purpose](Writing/01-Purpose.md).
@@ -23,20 +44,9 @@ A paper does not report what you did. It changes how a community understands a p
 - New and original is not enough. A result becomes knowledge only when a competent community challenges and accepts it.
 - Write: what the field accepts, the consequential problem in it, the change you propose, and why the evidence should convince the reader.
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/banner-write-only.svg"/><img src="assets/banner-write-only.svg" width="97%" alt="Write Only What Matters"/></picture>
-
-The reader does not care how long an experiment took or how hard it was. Effort does not determine scientific importance. Full page: [02 — Write only what matters](Writing/02-WriteOnlyWhatMatters.md).
-
-> **Do not write the history of the project. Write the argument the reader needs.**
-
-- A result belongs in the main text only if it advances the argument or supplies evidence the argument needs.
-- Months of work may deserve one sentence or a supplementary figure. A simple control may deserve a central panel if it closes the argument.
-- Procedures go to the Methods. Derivations, controls and secondary results go to the Supplementary Information.
-- Each paragraph has one purpose: claim, evidence or reasoning, interpretation, consequence. Remove anything that does none of these.
-
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/banner-introduction.svg"/><img src="assets/banner-introduction.svg" width="97%" alt="The Introduction Is a Scenario"/></picture>
 
-The introduction tells a story in the order the reader needs it. Full page: [03 — The introduction is a scenario](Writing/03-Introduction.md), with an [annotated example](Examples/01-IntroductionAsScenario.md).
+The introduction tells a story in the order the reader needs it. Full page: [02 — The introduction is a scenario](Writing/02-Introduction.md), with an [annotated example](Examples/01-IntroductionAsScenario.md).
 
 - Setting, protagonist, objective, perturbation, stakes, proposed resolution, challenge, resolution.
 - Begin with something the reader already values, not a definition or a history.
@@ -46,7 +56,7 @@ The introduction tells a story in the order the reader needs it. Full page: [03 
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/banner-figures.svg"/><img src="assets/banner-figures.svg" width="97%" alt="Figures Construct the Argument"/></picture>
 
-Data do not speak. Figures build meaning through selection, comparison and annotation. Full page: [04 — Figures construct the argument](Writing/04-Figures.md). Worked example: [Example 4](Examples/04-Figures.md).
+Data do not speak. Figures build meaning through selection, comparison and annotation. Full page: [03 — Figures construct the argument](Writing/03-Figures.md). Worked example: [Example 4](Examples/04-Figures.md).
 
 - Each figure answers one necessary question. Order the figures by the questions a skeptical reader asks, not by when the experiments were done.
 - Figure 1 is the concept, often the conventional approach next to the new one.
@@ -58,7 +68,7 @@ Data do not speak. Figures build meaning through selection, comparison and annot
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/banner-results.svg"/><img src="assets/banner-results.svg" width="97%" alt="The Results Section"/></picture>
 
-Show one result at a time, without repetition. Full page: [05 — The Results section](Writing/05-Results.md), with bad sentences next to their published version in [Example 2](Examples/02-ResultsSentences.md).
+Show one result at a time, without repetition. Full page: [04 — The Results section](Writing/04-Results.md), with bad sentences next to their published version in [Example 2](Examples/02-ResultsSentences.md).
 
 - Each claim of the last introduction paragraph becomes one section, in the same order and with the same words. Each section opens with what the previous one established; the Discussion restates the claim as demonstrated.
 - One section per result. If the format has titles, the title states the result.
@@ -72,7 +82,7 @@ Show one result at a time, without repetition. Full page: [05 — The Results se
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/banner-conclusion.svg"/><img src="assets/banner-conclusion.svg" width="97%" alt="The Conclusion"/></picture>
 
-The conclusion mirrors the introduction: it answers the problem the introduction raised, then says what the answer makes possible. Full page: [06 — The conclusion closes the loop and opens](Writing/06-Conclusion.md). Worked example: [Example 3](Examples/03-ConclusionMirrorsIntroduction.md).
+The conclusion mirrors the introduction: it answers the problem the introduction raised, then says what the answer makes possible. Full page: [05 — The conclusion closes the loop and opens](Writing/05-Conclusion.md). Worked example: [Example 3](Examples/03-ConclusionMirrorsIntroduction.md).
 
 - Letters and conference abstracts: an "In conclusion" paragraph (one or two sentences in an abstract). Long articles: a Discussion, without a recap of the Results.
 - Answer the problem of the introduction, in its words, and take back each limitation it listed, now removed, with the number.
@@ -84,7 +94,7 @@ The conclusion mirrors the introduction: it answers the problem the introduction
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/banner-style.svg"/><img src="assets/banner-style.svg" width="97%" alt="Style"/></picture>
 
-Readers cannot challenge an argument they cannot follow. Full page: [07 — Style](Writing/07-Style.md). Worked example: [Example 5](Examples/05-Style.md).
+Readers cannot challenge an argument they cannot follow. Full page: [06 — Style](Writing/06-Style.md). Worked example: [Example 5](Examples/05-Style.md).
 
 - Follow Strunk and White: omit needless words, use concrete language, keep related words together, put the important words at the end.
 - Begin with the setup or condition, end with the result. Make the physics the subject, not "we".
@@ -94,7 +104,7 @@ Readers cannot challenge an argument they cannot follow. Full page: [07 — Styl
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/banner-notation.svg"/><img src="assets/banner-notation.svg" width="97%" alt="Notation and Units"/></picture>
 
-Write every number, unit and symbol the same way. Full page, with the `siunitx` setup and checks to run before submission: [08 — Notation and units](Writing/08-NotationAndUnits.md).
+Write every number, unit and symbol the same way. Full page, with the `siunitx` setup and checks to run before submission: [07 — Notation and units](Writing/07-NotationAndUnits.md).
 
 - Every value with a unit goes through `\qty{}{}`, with unit macros (`\nm`, `\THz`, `\mW`), never typed by hand.
 - The symbol and the relation go inside `\qty`: `\qty{\nu_0 \approx 283}{\THz}`.
@@ -112,13 +122,12 @@ Write every number, unit and symbol the same way. Full page, with the `siunitx` 
 | Page | What it covers |
 |------|-----------------|
 | [01 — A paper must have a purpose](Writing/01-Purpose.md) | Why a paper exists |
-| [02 — Write only what matters](Writing/02-WriteOnlyWhatMatters.md) | What belongs in the main text, the Methods and the Supplementary |
-| [03 — The introduction is a scenario](Writing/03-Introduction.md) | The eight steps of an introduction |
-| [04 — Figures construct the argument](Writing/04-Figures.md) | What a figure does and how the figures progress |
-| [05 — The Results section](Writing/05-Results.md) | From the introduction to the Results, structure of each result, names and symbols, and references |
-| [06 — The conclusion closes the loop and opens](Writing/06-Conclusion.md) | How the conclusion answers the introduction, the two formats, and what the work opens |
-| [07 — Style](Writing/07-Style.md) | Strunk and White, the active-voice exception, and consistency |
-| [08 — Notation and units](Writing/08-NotationAndUnits.md) | The `siunitx` setup, `\qty`, approximation signs, sub- and superscripts, `\ce`, and pre-submission checks |
+| [02 — The introduction is a scenario](Writing/02-Introduction.md) | The eight steps of an introduction |
+| [03 — Figures construct the argument](Writing/03-Figures.md) | What a figure does and how the figures progress |
+| [04 — The Results section](Writing/04-Results.md) | From the introduction to the Results, structure of each result, names and symbols, and references |
+| [05 — The conclusion closes the loop and opens](Writing/05-Conclusion.md) | How the conclusion answers the introduction, the two formats, and what the work opens |
+| [06 — Style](Writing/06-Style.md) | Strunk and White, the active-voice exception, and consistency |
+| [07 — Notation and units](Writing/07-NotationAndUnits.md) | The `siunitx` setup, `\qty`, approximation signs, sub- and superscripts, `\ce`, and pre-submission checks |
 | [Example 1: The introduction is a scenario](Examples/01-IntroductionAsScenario.md) | Annotated introduction from the self-aligned PDCS paper |
 | [Example 2: Results sentences, bad and published](Examples/02-ResultsSentences.md) | Sentences written badly on purpose next to their published version in the self-aligned PDCS paper |
 | [Example 3: The conclusion mirrors the introduction](Examples/03-ConclusionMirrorsIntroduction.md) | Introduction and conclusion side by side in published papers |
@@ -132,18 +141,17 @@ ScientificWriting/
 ├── README.md
 ├── Writing/
 │   ├── 01-Purpose.md
-│   ├── 02-WriteOnlyWhatMatters.md
-│   ├── 03-Introduction.md
-│   ├── 04-Figures.md
-│   ├── 05-Results.md
-│   ├── 06-Conclusion.md
-│   ├── 07-Style.md
-│   └── 08-NotationAndUnits.md
+│   ├── 02-Introduction.md
+│   ├── 03-Figures.md
+│   ├── 04-Results.md
+│   ├── 05-Conclusion.md
+│   ├── 06-Style.md
+│   └── 07-NotationAndUnits.md
 └── Examples/
     ├── 01-IntroductionAsScenario.md
     ├── 02-ResultsSentences.md
     ├── 03-ConclusionMirrorsIntroduction.md
-    ├── 04-Figures.md
+    ├── 03-Figures.md
     └── 05-Style.md
 ```
 
