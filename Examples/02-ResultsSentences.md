@@ -72,9 +72,3 @@ Each block names the rule, then shows a sentence written badly on purpose next t
 | Bad (published) | Good (corrected) |
 |---|---|
 | `[...] microring resonators obtained via commercial four-inch wafer foundry fabrication [...]` | `[...] microring resonators obtained via commercial \qty{100}{\mm} wafer foundry fabrication [...]` |
-
-### dBm is not an SI unit ([Notation rule 5](../Writing/07-NotationAndUnits.md#rules))
-
-| Bad | Good (published) |
-|---|---|
-| `[...] with all comb teeth between the two octave-separated pump lasers above \qty{-60}{\dBm}.` | `[...] with all comb teeth between the two octave-separated pump lasers above \qty{1}{\nW} (i.e., \qty{-60}{\dBm}).` |
