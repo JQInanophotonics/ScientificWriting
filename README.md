@@ -134,6 +134,8 @@ Use passive voice when it preserves this order or when the actor does not matter
 
 Use the same terminology, symbols, units, colors, fonts, and visual conventions throughout the paper. Do not replace a precise term with a synonym to avoid repetition. A color, line style, or symbol must retain the same meaning in every figure. The reader should evaluate the science, not decode its presentation.
 
+For numbers, units and symbols in LaTeX, follow [Notation and units](NotationAndUnits.md).
+
 <a id="pages"></a>
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/banner-pages.svg"/><img src="assets/banner-pages.svg" width="97%" alt="Pages"/></picture>
@@ -142,12 +144,14 @@ Use the same terminology, symbols, units, colors, fonts, and visual conventions 
 |------|-----------------|
 | [Main guide](README.md) | Purpose, narrative, selection, figures, sentence-level writing, and consistency |
 | [Example 1: The introduction is a scenario](Examples/01-IntroductionAsScenario.md) | Annotated introduction from the self-aligned PDCS paper |
+| [Notation and units](NotationAndUnits.md) | The `siunitx` setup, `\qty` usage, approximation signs, subscripts, and pre-submission checks |
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/banner-repo-layout.svg"/><img src="assets/banner-repo-layout.svg" width="97%" alt="What's in This Repo"/></picture>
 
 ```text
 ScientificWriting/
 ├── README.md
+├── NotationAndUnits.md
 └── Examples/
     └── 01-IntroductionAsScenario.md
 ```
