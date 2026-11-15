@@ -144,7 +144,7 @@ For numbers, units and symbols in LaTeX, follow [Notation and units](NotationAnd
 |------|-----------------|
 | [Main guide](README.md) | Purpose, narrative, selection, figures, sentence-level writing, and consistency |
 | [Example 1: The introduction is a scenario](Examples/01-IntroductionAsScenario.md) | Annotated introduction from the self-aligned PDCS paper |
-| [Notation and units](NotationAndUnits.md) | The `siunitx` setup, `\qty` usage, approximation signs, subscripts, and pre-submission checks |
+| [Notation and units](NotationAndUnits.md) | The `siunitx` setup, `\qty` usage, approximation signs, sub- and superscripts, `\ce` formulas, and pre-submission checks |
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/banner-repo-layout.svg"/><img src="assets/banner-repo-layout.svg" width="97%" alt="What's in This Repo"/></picture>
 

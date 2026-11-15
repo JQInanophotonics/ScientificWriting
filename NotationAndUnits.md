@@ -76,6 +76,25 @@ A journal template without the class needs the same block in its preamble. Decla
     $\nicefrac{K}{M}$
     ```
 
+11. **Sub- and superscripts on text use text commands. Sub- and superscripts on symbols use math mode.** A label that is a word, an ordinal or a state name stays in text.
+
+    ```latex
+    the $m$\textsuperscript{th} sideband        % ordinal on a math index
+    the k\textsuperscript{th} comb tooth          % ordinal on a plain letter
+    the TE\textsubscript{0} mode                  % mode label
+    the 5S\textsubscript{1/2} state               % atomic state
+    $\chi^{(3)}$, $\nu_\mathrm{rep}$, $P_\pm$     % symbols: math mode
+    ```
+
+    Never write `TE$_0$` or `5S$_{1/2}$`: math mode switches the font and the spacing in the middle of a word.
+
+12. **Chemical formulas and isotopes use `\ce{}` from `mhchem`.** Load `\usepackage[version=4]{mhchem}`. Digits become subscripts automatically, so write `\ce{Si3N4}`, not `\ce{Si_3N_4}` or `Si$_3$N$_4$`.
+
+    ```latex
+    \ce{Si3N4}, \ce{SiO2}, \ce{SiN}, \ce{LiNbO3}
+    \ce{^{87}Rb}                                  % isotope
+    ```
+
 ## Before submission
 
 Search the `.tex` for the slips these rules forbid:
@@ -85,6 +104,8 @@ grep -nE '[0-9] ?(nm|GHz|THz|MHz|kHz|mW|dB)\b' paper.tex   # units typed as text
 grep -nE '\\qty\{[^}]*\}\{[a-zA-Z]' paper.tex             # unit without a macro
 grep -nE '\\sim[^e]|\\num\{[0-9.]+e' paper.tex            # \sim, e-notation
 grep -nE '_\{[a-z]{2,}\}' paper.tex                        # italic descriptive subscript
+grep -nE '[A-Za-z]\$[_^]' paper.tex                         # math sub/superscript glued to a word
+grep -nE 'Si\$?_\{?3|SiO\$?_\{?2|(^|[^{])(Si3N4|SiO2)' paper.tex # formula outside \ce, or with _
 ```
 
 Then read the PDF text for "e3", "e-", and stray `\%`.
